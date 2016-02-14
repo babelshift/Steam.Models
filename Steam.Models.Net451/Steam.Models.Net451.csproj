@@ -7,8 +7,8 @@
     <ProjectGuid>{CFC1726D-8012-4251-80AD-E8802A7FD1DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Steam.Models.Net451</RootNamespace>
-    <AssemblyName>Steam.Models.Net451</AssemblyName>
+    <RootNamespace>Steam.Models</RootNamespace>
+    <AssemblyName>Steam.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

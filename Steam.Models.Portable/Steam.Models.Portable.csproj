@@ -8,8 +8,8 @@
     <ProjectGuid>{37170BA3-979F-46E3-BB0A-F7306E66F191}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Steam.Models.Portable</RootNamespace>
-    <AssemblyName>Steam.Models.Portable</AssemblyName>
+    <RootNamespace>Steam.Models</RootNamespace>
+    <AssemblyName>Steam.Models</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
