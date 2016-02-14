@@ -7,6 +7,6 @@
         public string Name { get; set; }
         public bool IsRecipe { get; set; }
         public bool IsAvailableAtSecretShop { get; set; }
-        public int IsAvailableAtSideShop { get; set; }
+        public bool IsAvailableAtSideShop { get; set; }
     }
 }
