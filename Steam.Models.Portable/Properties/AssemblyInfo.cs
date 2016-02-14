@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Steam.Models")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Provides models to be used with Steam-related libraries.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Steam.Models")]
