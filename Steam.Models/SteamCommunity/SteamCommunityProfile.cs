@@ -24,8 +24,8 @@ namespace Steam.Models.SteamCommunity
         public string Location { get; set; }
         public string RealName { get; set; }
         public string Summary { get; set; }
-        public IList<MostPlayedGame> MostPlayedGames { get; set; }
-        public IList<WebLink> WebLinks { get; set; }
+        public IReadOnlyCollection<MostPlayedGame> MostPlayedGames { get; set; }
+        public IReadOnlyCollection<WebLink> WebLinks { get; set; }
 
         public class MostPlayedGame
         {

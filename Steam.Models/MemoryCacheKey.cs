@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Steam.Models
+﻿namespace Steam.Models
 {
     public enum MemoryCacheKey
     {

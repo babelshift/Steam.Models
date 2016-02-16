@@ -4,32 +4,40 @@ namespace Steam.Models.DOTA2
 {
     public class LiveLeagueGameModel
     {
-        public string LeagueName { get; set; }
-        public int SpectatorCount { get; set; }
-        public string RadiantTeamName { get; set; }
-        public string DireTeamName { get; set; }
-        public int RadiantKillCount { get; set; }
-        public int DireKillCount { get; set; }
-        public string ElapsedTimeDisplay { get; set; }
-        public int GameNumber { get; set; }
-        public int BestOf { get; set; }
-        public int RadiantSeriesWins { get; set; }
-        public int DireSeriesWins { get; set; }
-        public string LeagueLogoPath { get; set; }
-        public string RadiantTeamLogo { get; set; }
-        public string DireTeamLogo { get; set; }
-        public int RoshanRespawnTimer { get; set; }
+        public IReadOnlyCollection<LiveLeagueGamePlayerInfoModel> Players { get; set; }
+
+        public LiveLeagueGameTeamRadiantInfoModel RadiantTeam { get; set; }
+
+        public LiveLeagueGameTeamDireInfoModel DireTeam { get; set; }
+
         public long LobbyId { get; set; }
+
         public long MatchId { get; set; }
-        public double StreamDelay { get; set; }
-        public IReadOnlyCollection<LiveLeagueGamePlayerModel> Players { get; set; }
-        public double ElapsedTime { get; set; }
-        public TowerStateModel RadiantTowerStates { get; set; }
-        public TowerStateModel DireTowerStates { get; set; }
-        public IReadOnlyCollection<LiveLeagueGameHeroModel> RadiantPicks { get; set; }
-        public IReadOnlyCollection<LiveLeagueGameHeroModel> DirePicks { get; set; }
-        public IReadOnlyCollection<LiveLeagueGameHeroModel> RadiantBans { get; set; }
-        public IReadOnlyCollection<LiveLeagueGameHeroModel> DireBans { get; set; }
-        public string LeagueTier { get; set; }
+
+        public int Spectators { get; set; }
+
+        public int SeriesId { get; set; }
+
+        public int GameNumber { get; set; }
+
+        public int LeagueId { get; set; }
+
+        public double StreamDelaySeconds { get; set; }
+
+        public int RadiantSeriesWins { get; set; }
+
+        public int DireSeriesWins { get; set; }
+
+        public int SeriesType { get; set; }
+
+        public int LeagueSeriesId { get; set; }
+
+        public int LeagueGameId { get; set; }
+
+        public string StageName { get; set; }
+
+        public DotaLeagueTier LeagueTier { get; set; }
+
+        public LiveLeagueGameScoreboardModel Scoreboard { get; set; }
     }
 }
