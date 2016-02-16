@@ -2,7 +2,7 @@
 {
     public class ProPlayerInfoModel
     {
-        public int AccountId { get; set; }
+        public uint AccountId { get; set; }
 
         public string Name { get; set; }
 

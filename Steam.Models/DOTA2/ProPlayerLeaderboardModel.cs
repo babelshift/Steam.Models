@@ -6,6 +6,6 @@ namespace Steam.Models.DOTA2
     {
         public int Division { get; set; }
 
-        public IReadOnlyCollection<int> AccountIds { get; set; }
+        public IReadOnlyCollection<uint> AccountIds { get; set; }
     }
 }

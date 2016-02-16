@@ -2,7 +2,7 @@
 {
     public class LiveLeagueGamePlayerModel
     {
-        public int AccountId { get; set; }
+        public uint AccountId { get; set; }
         public string Name { get; set; }
         public int HeroId { get; set; }
         public string HeroName { get; set; }

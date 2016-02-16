@@ -4,7 +4,7 @@
     {
         public int PlayerSlot { get; set; }
 
-        public int AccountId { get; set; }
+        public uint AccountId { get; set; }
 
         public int HeroId { get; set; }
 

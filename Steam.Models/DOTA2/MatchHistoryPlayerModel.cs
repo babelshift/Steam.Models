@@ -2,7 +2,7 @@
 {
     public class MatchHistoryPlayerModel
     {
-        public object AccountId { get; set; }
+        public uint AccountId { get; set; }
 
         public int PlayerSlot { get; set; }
 
