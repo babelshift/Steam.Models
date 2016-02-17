@@ -57,11 +57,14 @@
     <Compile Include="..\Steam.Models\CSGO\ServerStatusServicesModel.cs">
       <Link>CSGO\ServerStatusServicesModel.cs</Link>
     </Compile>
-    <Compile Include="..\Steam.Models\DOTA2\BarracksState.cs">
-      <Link>DOTA2\BarracksState.cs</Link>
+    <Compile Include="..\Steam.Models\DOTA2\BarracksStateModel.cs">
+      <Link>DOTA2\BarracksStateModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\DotaLeagueTier.cs">
       <Link>DOTA2\DotaLeagueTier.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\GameFile.cs">
+      <Link>DOTA2\GameFile.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\GameItemModel.cs">
       <Link>DOTA2\GameItemModel.cs</Link>
