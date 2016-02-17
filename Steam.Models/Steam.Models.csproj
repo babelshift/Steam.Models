@@ -50,8 +50,9 @@
     <Compile Include="CSGO\ServerStatusMatchmakingModel.cs" />
     <Compile Include="CSGO\ServerStatusModel.cs" />
     <Compile Include="CSGO\ServerStatusServicesModel.cs" />
-    <Compile Include="DOTA2\BarracksState.cs" />
+    <Compile Include="DOTA2\BarracksStateModel.cs" />
     <Compile Include="DOTA2\DotaLeagueTier.cs" />
+    <Compile Include="DOTA2\GameFile.cs" />
     <Compile Include="DOTA2\HeroModel.cs" />
     <Compile Include="DOTA2\HeroRoleModel.cs" />
     <Compile Include="DOTA2\LeagueModel.cs" />
