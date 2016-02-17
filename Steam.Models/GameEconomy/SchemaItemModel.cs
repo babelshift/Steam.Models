@@ -1,19 +1,25 @@
-﻿using System.Collections.Generic;
+﻿using Steam.Models.DOTA2;
+using System;
+using System.Collections.Generic;
 
 namespace Steam.Models.GameEconomy
 {
     public class SchemaItemModel
     {
+        public int DefIndex { get; set; }
+
         public string Name { get; set; }
-
-        public int Defindex { get; set; }
-
-        public string ItemClass { get; set; }
-
-        public string ItemTypeName { get; set; }
+        
+        public string ImageInventoryPath { get; set; }
 
         public string ItemName { get; set; }
 
+        public string ItemDescription { get; set; }
+        
+        public string ItemTypeName { get; set; }
+
+        public string ItemClass { get; set; }
+        
         public bool ProperName { get; set; }
 
         public string ItemSlot { get; set; }
@@ -21,9 +27,7 @@ namespace Steam.Models.GameEconomy
         public string ModelPlayer { get; set; }
 
         public int ItemQuality { get; set; }
-
-        public string ImageInventory { get; set; }
-
+        
         public int MinIlevel { get; set; }
 
         public int MaxIlevel { get; set; }
@@ -41,9 +45,7 @@ namespace Steam.Models.GameEconomy
         public IReadOnlyCollection<string> UsedByClasses { get; set; }
 
         public IReadOnlyCollection<SchemaStyleModel> Styles { get; set; }
-
-        public string ItemDescription { get; set; }
-
+        
         public IReadOnlyCollection<SchemaItemAttributeModel> Attributes { get; set; }
 
         public string DropType { get; set; }
@@ -55,5 +57,23 @@ namespace Steam.Models.GameEconomy
         public SchemaPerClassLoadoutSlotsModel PerClassLoadoutSlots { get; set; }
 
         public SchemaToolModel Tool { get; set; }
+
+        public string Prefab { get; set; }
+
+        public DateTime? CreationDate { get; set; }
+
+        public DateTime? ExpirationDate { get; set; }
+
+        public string TournamentUrl { get; set; }
+
+        public string ImageBannerPath { get; set; }
+
+        public string ItemRarity { get; set; }
+
+        public SchemaItemPriceInfoModel PriceInfo { get; set; }
+
+        public IList<string> UsedByHeroes { get; set; }
+
+        public IList<string> BundledItems { get; set; }
     }
 }

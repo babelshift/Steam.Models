@@ -63,6 +63,9 @@
     <Compile Include="..\Steam.Models\CSGO\ServerStatusServicesModel.cs">
       <Link>CSGO\ServerStatusServicesModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\AbilitySpecialSchemaItemModel.cs">
+      <Link>DOTA2\AbilitySpecialSchemaItemModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\BarracksStateModel.cs">
       <Link>DOTA2\BarracksStateModel.cs</Link>
     </Compile>
@@ -80,6 +83,18 @@
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\HeroRoleModel.cs">
       <Link>DOTA2\HeroRoleModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\HeroSchemaModel.cs">
+      <Link>DOTA2\HeroSchemaModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\ItemAbilitySchemaItemModel.cs">
+      <Link>DOTA2\ItemAbilitySchemaItemModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\ItemBuildGroupSchemaItemModel.cs">
+      <Link>DOTA2\ItemBuildGroupSchemaItemModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\ItemBuildSchemaItemModel.cs">
+      <Link>DOTA2\ItemBuildSchemaItemModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\LeagueModel.cs">
       <Link>DOTA2\LeagueModel.cs</Link>
@@ -165,6 +180,45 @@
     <Compile Include="..\Steam.Models\DOTA2\RarityModel.cs">
       <Link>DOTA2\RarityModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaColorModel.cs">
+      <Link>DOTA2\SchemaColorModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaGameInfoModel.cs">
+      <Link>DOTA2\SchemaGameInfoModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaItemAutographModel.cs">
+      <Link>DOTA2\SchemaItemAutographModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaItemModel.cs">
+      <Link>DOTA2\SchemaItemModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaItemPriceInfoModel.cs">
+      <Link>DOTA2\SchemaItemPriceInfoModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaItemSetModel.cs">
+      <Link>DOTA2\SchemaItemSetModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaItemToolModel.cs">
+      <Link>DOTA2\SchemaItemToolModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaItemToolUsageModel.cs">
+      <Link>DOTA2\SchemaItemToolUsageModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaModel.cs">
+      <Link>DOTA2\SchemaModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaPrefabCapabilityModel.cs">
+      <Link>DOTA2\SchemaPrefabCapabilityModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaPrefabModel.cs">
+      <Link>DOTA2\SchemaPrefabModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaQualityModel.cs">
+      <Link>DOTA2\SchemaQualityModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\SchemaRarityModel.cs">
+      <Link>DOTA2\SchemaRarityModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\SourceFileModel.cs">
       <Link>DOTA2\SourceFileModel.cs</Link>
     </Compile>
@@ -191,66 +245,6 @@
     </Compile>
     <Compile Include="..\Steam.Models\GameEconomy\EconItemResultModel.cs">
       <Link>GameEconomy\EconItemResultModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaAdditionalHiddenBodygroupsModel.cs">
-      <Link>GameEconomy\SchemaAdditionalHiddenBodygroupsModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaAttributeControlledAttachedParticleModel.cs">
-      <Link>GameEconomy\SchemaAttributeControlledAttachedParticleModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaAttributeModel.cs">
-      <Link>GameEconomy\SchemaAttributeModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaCapabilitiesModel.cs">
-      <Link>GameEconomy\SchemaCapabilitiesModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaItemAttributeModel.cs">
-      <Link>GameEconomy\SchemaItemAttributeModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaItemLevelModel.cs">
-      <Link>GameEconomy\SchemaItemLevelModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaItemModel.cs">
-      <Link>GameEconomy\SchemaItemModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaItemSetAttributeModel.cs">
-      <Link>GameEconomy\SchemaItemSetAttributeModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaItemSetModel.cs">
-      <Link>GameEconomy\SchemaItemSetModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaKillEaterScoreTypeModel.cs">
-      <Link>GameEconomy\SchemaKillEaterScoreTypeModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaLevelModel.cs">
-      <Link>GameEconomy\SchemaLevelModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaModel.cs">
-      <Link>GameEconomy\SchemaModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaOriginNameModel.cs">
-      <Link>GameEconomy\SchemaOriginNameModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaPerClassLoadoutSlotsModel.cs">
-      <Link>GameEconomy\SchemaPerClassLoadoutSlotsModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaQualitiesModel.cs">
-      <Link>GameEconomy\SchemaQualitiesModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaStringLookupModel.cs">
-      <Link>GameEconomy\SchemaStringLookupModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaStringModel.cs">
-      <Link>GameEconomy\SchemaStringModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaStyleModel.cs">
-      <Link>GameEconomy\SchemaStyleModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaToolModel.cs">
-      <Link>GameEconomy\SchemaToolModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\GameEconomy\SchemaUsageCapabilitiesModel.cs">
-      <Link>GameEconomy\SchemaUsageCapabilitiesModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\GameEconomy\StoreBannerModel.cs">
       <Link>GameEconomy\StoreBannerModel.cs</Link>
