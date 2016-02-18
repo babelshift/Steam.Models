@@ -23,13 +23,13 @@ namespace Steam.Models.DOTA2
         public long MatchId { get; set; }
         public double StreamDelay { get; set; }
         public IReadOnlyCollection<LiveLeagueGamePlayerModel> Players { get; set; }
-        public double ElapsedTime { get; internal set; }
+        public double ElapsedTime { get; set; }
         public TowerStateModel RadiantTowerStates { get; set; }
         public TowerStateModel DireTowerStates { get; set; }
         public IReadOnlyCollection<LiveLeagueGameHeroModel> RadiantPicks { get; set; }
         public IReadOnlyCollection<LiveLeagueGameHeroModel> DirePicks { get; set; }
         public IReadOnlyCollection<LiveLeagueGameHeroModel> RadiantBans { get; set; }
         public IReadOnlyCollection<LiveLeagueGameHeroModel> DireBans { get; set; }
-        public string LeagueTier { get; internal set; }
+        public string LeagueTier { get; set; }
     }
 }
