@@ -2,6 +2,8 @@
 {
     public class BarracksStateModel
     {
+        public BarracksStateModel() { }
+
         public BarracksStateModel(int barracksState)
         {
             IsTopMeleeAlive = ((barracksState >> 0) & 1) == 1 ? true : false;

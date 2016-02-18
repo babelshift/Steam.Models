@@ -2,6 +2,8 @@
 {
     public class TowerStateModel
     {
+        public TowerStateModel() { }
+
         public TowerStateModel(int towerState)
         {
             IsAncientBottomAlive = ((towerState >> 10) & 1) == 1 ? true : false;
