@@ -101,6 +101,9 @@
     <Compile Include="..\Steam.Models\DOTA2\LiveLeagueGameBanModel.cs">
       <Link>DOTA2\LiveLeagueGameBanModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\LiveLeagueGameFlattenedModel.cs">
+      <Link>DOTA2\LiveLeagueGameFlattenedModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\LiveLeagueGameHeroModel.cs">
       <Link>DOTA2\LiveLeagueGameHeroModel.cs</Link>
     </Compile>

@@ -78,6 +78,7 @@
     <Compile Include="DOTA2\LeagueModel.cs" />
     <Compile Include="DOTA2\LiveLeagueGameAbilityModel.cs" />
     <Compile Include="DOTA2\LiveLeagueGameBanModel.cs" />
+    <Compile Include="DOTA2\LiveLeagueGameFlattenedModel.cs" />
     <Compile Include="DOTA2\LiveLeagueGameHeroModel.cs" />
     <Compile Include="DOTA2\LiveLeagueGameItemModel.cs" />
     <Compile Include="DOTA2\LiveLeagueGameModel.cs" />
