@@ -123,6 +123,12 @@
     <Compile Include="..\Steam.Models\DOTA2\GameItemModel.cs">
       <Link>DOTA2\GameItemModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\HeroAbilityDetailModel.cs">
+      <Link>DOTA2\HeroAbilityDetailModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\HeroAbilitySpecialDetailModel.cs">
+      <Link>DOTA2\HeroAbilitySpecialDetailModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\HeroDetailModel.cs">
       <Link>DOTA2\HeroDetailModel.cs</Link>
     </Compile>
@@ -353,9 +359,6 @@
     </Compile>
     <Compile Include="..\Steam.Models\GameEconomy\StoreTabModel.cs">
       <Link>GameEconomy\StoreTabModel.cs</Link>
-    </Compile>
-    <Compile Include="..\Steam.Models\MemoryCacheKey.cs">
-      <Link>MemoryCacheKey.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\NewsItemModel.cs">
       <Link>NewsItemModel.cs</Link>

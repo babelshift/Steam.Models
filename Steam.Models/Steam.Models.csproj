@@ -69,6 +69,8 @@
     <Compile Include="DOTA2\DotaUnitTargetTeamType.cs" />
     <Compile Include="DOTA2\DotaUnitTargetType.cs" />
     <Compile Include="DOTA2\GameFile.cs" />
+    <Compile Include="DOTA2\HeroAbilityDetailModel.cs" />
+    <Compile Include="DOTA2\HeroAbilitySpecialDetailModel.cs" />
     <Compile Include="DOTA2\HeroDetailModel.cs" />
     <Compile Include="DOTA2\HeroModel.cs" />
     <Compile Include="DOTA2\HeroRoleModel.cs" />
@@ -145,7 +147,6 @@
     <Compile Include="GameEconomy\StoreSortingPrefabModel.cs" />
     <Compile Include="GameEconomy\StoreTabChildModel.cs" />
     <Compile Include="GameEconomy\StoreTabModel.cs" />
-    <Compile Include="MemoryCacheKey.cs" />
     <Compile Include="DOTA2\PlayerCountModel.cs" />
     <Compile Include="NewsItemModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
