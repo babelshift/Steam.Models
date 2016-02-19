@@ -2,7 +2,9 @@
 {
     public class BarracksStateModel
     {
-        public BarracksStateModel() { }
+        public BarracksStateModel()
+        {
+        }
 
         public BarracksStateModel(int barracksState)
         {

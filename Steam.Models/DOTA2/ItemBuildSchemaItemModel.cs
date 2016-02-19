@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Steam.Models.DOTA2
 {
@@ -11,7 +7,7 @@ namespace Steam.Models.DOTA2
         public string Author { get; set; }
         public string Hero { get; set; }
         public string Title { get; set; }
-        
+
         public IList<ItemBuildGroupSchemaItemModel> Items { get; set; }
     }
 }

@@ -2,7 +2,9 @@
 {
     public class TowerStateModel
     {
-        public TowerStateModel() { }
+        public TowerStateModel()
+        {
+        }
 
         public TowerStateModel(int towerState)
         {
