@@ -69,6 +69,7 @@
     <Compile Include="DOTA2\DotaUnitTargetTeamType.cs" />
     <Compile Include="DOTA2\DotaUnitTargetType.cs" />
     <Compile Include="DOTA2\GameFile.cs" />
+    <Compile Include="DOTA2\HeroDetailModel.cs" />
     <Compile Include="DOTA2\HeroModel.cs" />
     <Compile Include="DOTA2\HeroRoleModel.cs" />
     <Compile Include="DOTA2\HeroSchemaModel.cs" />

@@ -63,20 +63,68 @@
     <Compile Include="..\Steam.Models\CSGO\ServerStatusServicesModel.cs">
       <Link>CSGO\ServerStatusServicesModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\AbilitySchemaItemModel.cs">
+      <Link>DOTA2\AbilitySchemaItemModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\AbilitySpecialSchemaItemModel.cs">
       <Link>DOTA2\AbilitySpecialSchemaItemModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\BarracksStateModel.cs">
       <Link>DOTA2\BarracksStateModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaAttackType.cs">
+      <Link>DOTA2\DotaAttackType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaDamageType.cs">
+      <Link>DOTA2\DotaDamageType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaEnumType.cs">
+      <Link>DOTA2\DotaEnumType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaHeroAbilityBehaviorType.cs">
+      <Link>DOTA2\DotaHeroAbilityBehaviorType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaHeroAbilityType.cs">
+      <Link>DOTA2\DotaHeroAbilityType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaHeroPrimaryAttributeType.cs">
+      <Link>DOTA2\DotaHeroPrimaryAttributeType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaItemDeclarationType.cs">
+      <Link>DOTA2\DotaItemDeclarationType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaItemDisassembleType.cs">
+      <Link>DOTA2\DotaItemDisassembleType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaItemShareabilityType.cs">
+      <Link>DOTA2\DotaItemShareabilityType.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\DotaLeagueTier.cs">
       <Link>DOTA2\DotaLeagueTier.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaSpellImmunityType.cs">
+      <Link>DOTA2\DotaSpellImmunityType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaTeamType.cs">
+      <Link>DOTA2\DotaTeamType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaUnitTargetFlag.cs">
+      <Link>DOTA2\DotaUnitTargetFlag.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaUnitTargetTeamType.cs">
+      <Link>DOTA2\DotaUnitTargetTeamType.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaUnitTargetType.cs">
+      <Link>DOTA2\DotaUnitTargetType.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\GameFile.cs">
       <Link>DOTA2\GameFile.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\GameItemModel.cs">
       <Link>DOTA2\GameItemModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\HeroDetailModel.cs">
+      <Link>DOTA2\HeroDetailModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\DOTA2\HeroModel.cs">
       <Link>DOTA2\HeroModel.cs</Link>
