@@ -14,6 +14,7 @@ namespace Steam.Models.DOTA2
         public int Id { get; set; }
         public string Url { get; set; }
         public string Name { get; set; }
+        public string NameInSchema { get; set; }
         public string Description { get; set; }
         public string AvatarImagePath { get; set; }
         public int BaseStrength { get; set; }
@@ -34,6 +35,7 @@ namespace Steam.Models.DOTA2
         public DotaHeroPrimaryAttributeType PrimaryAttribute { get; set; }
         public string ActiveTab { get; set; }
         public string MinimapIconPath { get; set; }
+        public bool IsEnabled { get; set; }
 
         public IReadOnlyCollection<HeroRoleModel> Roles { get; set; }
         public IReadOnlyCollection<HeroAbilityDetailModel> Abilities { get; set; }
