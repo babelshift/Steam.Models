@@ -4,7 +4,7 @@
     "uwp.10.0.app": {}
   },
   "dependencies": {
-    "automapper": "4.2.0",
+    "automapper": "4.2.1",
     "Microsoft.NETCore": "5.0.0",
     "Microsoft.NETCore.Portable.Compatibility": "1.0.0"
   },

@@ -3,7 +3,7 @@
   "version": 1,
   "targets": {
     ".NETFramework,Version=v4.6": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "frameworkAssemblies": [
           "Microsoft.CSharp",
           "mscorlib",
@@ -672,7 +672,7 @@
       }
     },
     ".NETFramework,Version=v4.6/win-x64": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "frameworkAssemblies": [
           "Microsoft.CSharp",
           "mscorlib",
@@ -1365,7 +1365,7 @@
       }
     },
     ".NETFramework,Version=v4.6/win-x86": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "frameworkAssemblies": [
           "Microsoft.CSharp",
           "mscorlib",
@@ -2058,7 +2058,7 @@
       }
     },
     ".NETPlatform,Version=v5.0": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "frameworkAssemblies": [
           "Microsoft.CSharp",
           "System.Collections",
@@ -2877,7 +2877,7 @@
       }
     },
     "UAP,Version=v10.0": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
           "System.Collections": "[4.0.10, )",
@@ -4094,7 +4094,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
           "System.Collections": "[4.0.10, )",
@@ -5384,7 +5384,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
           "System.Collections": "[4.0.10, )",
@@ -6646,7 +6646,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
           "System.Collections": "[4.0.10, )",
@@ -7941,7 +7941,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
           "System.Collections": "[4.0.10, )",
@@ -9203,7 +9203,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
           "System.Collections": "[4.0.10, )",
@@ -10498,7 +10498,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "automapper/4.2.0": {
+      "automapper/4.2.1": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
           "System.Collections": "[4.0.10, )",
@@ -11761,8 +11761,8 @@
     }
   },
   "libraries": {
-    "automapper/4.2.0": {
-      "sha512": "8U0T1cD7z1oQRaKvaFTp2ufN3mG10Hbmoq30AHPhy4uWLl3Vx1/7BV6QhYtFo7rKrMkTKWgUAVDUDlc9Pd5TSA==",
+    "automapper/4.2.1": {
+      "sha512": "BxAMt0Sl9dQIPPualuMv6IhJ5QrWmWSgyYZ/QxcQcR2IBu57/CXG5IP+73sFIr4FMNtcrUugWnuOWkYnlrLVWQ==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -14564,7 +14564,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "automapper >= 4.2.0",
+      "automapper >= 4.2.1",
       "Microsoft.NETCore >= 5.0.0",
       "Microsoft.NETCore.Portable.Compatibility >= 1.0.0"
     ],

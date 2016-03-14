@@ -497,6 +497,54 @@
     <Compile Include="..\Steam.Models\SteamServerInfoModel.cs">
       <Link>SteamServerInfoModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreAppDetailsDataModel.cs">
+      <Link>SteamStore\StoreAppDetailsDataModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreCategoryModel.cs">
+      <Link>SteamStore\StoreCategoryModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreGenreModel.cs">
+      <Link>SteamStore\StoreGenreModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreLinuxRequirementsModel.cs">
+      <Link>SteamStore\StoreLinuxRequirementsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreMacRequirementsModel.cs">
+      <Link>SteamStore\StoreMacRequirementsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreMetacriticModel.cs">
+      <Link>SteamStore\StoreMetacriticModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreMovieModel.cs">
+      <Link>SteamStore\StoreMovieModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StorePackageGroupModel.cs">
+      <Link>SteamStore\StorePackageGroupModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StorePcRequirementsModel.cs">
+      <Link>SteamStore\StorePcRequirementsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StorePlatformsModel.cs">
+      <Link>SteamStore\StorePlatformsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreRecommendationsModel.cs">
+      <Link>SteamStore\StoreRecommendationsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreReleaseDateModel.cs">
+      <Link>SteamStore\StoreReleaseDateModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreScreenshotModel.cs">
+      <Link>SteamStore\StoreScreenshotModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreSubModel.cs">
+      <Link>SteamStore\StoreSubModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreSupportInfoModel.cs">
+      <Link>SteamStore\StoreSupportInfoModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreWebmModel.cs">
+      <Link>SteamStore\StoreWebmModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\TF2\GoldenWrenchModel.cs">
       <Link>TF2\GoldenWrenchModel.cs</Link>
     </Compile>
