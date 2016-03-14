@@ -507,8 +507,35 @@
     <Compile Include="..\Steam.Models\SteamStore\StoreCategoryModel.cs">
       <Link>SteamStore\StoreCategoryModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreComingSoonModel.cs">
+      <Link>SteamStore\StoreComingSoonModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreFeaturedCategoriesModel.cs">
+      <Link>SteamStore\StoreFeaturedCategoriesModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreFeaturedCategoryGenreModel.cs">
+      <Link>SteamStore\StoreFeaturedCategoryGenreModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreFeaturedLinuxModel.cs">
+      <Link>SteamStore\StoreFeaturedLinuxModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreFeaturedMacModel.cs">
+      <Link>SteamStore\StoreFeaturedMacModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreFeaturedProductsModel.cs">
+      <Link>SteamStore\StoreFeaturedProductsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreFeaturedWinModel.cs">
+      <Link>SteamStore\StoreFeaturedWinModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\SteamStore\StoreGenreModel.cs">
       <Link>SteamStore\StoreGenreModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreItemModel.cs">
+      <Link>SteamStore\StoreItemModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreLargeCapsuleModel.cs">
+      <Link>SteamStore\StoreLargeCapsuleModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\SteamStore\StoreLinuxRequirementsModel.cs">
       <Link>SteamStore\StoreLinuxRequirementsModel.cs</Link>
@@ -521,6 +548,9 @@
     </Compile>
     <Compile Include="..\Steam.Models\SteamStore\StoreMovieModel.cs">
       <Link>SteamStore\StoreMovieModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreNewReleasesModel.cs">
+      <Link>SteamStore\StoreNewReleasesModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\SteamStore\StorePackageGroupModel.cs">
       <Link>SteamStore\StorePackageGroupModel.cs</Link>
@@ -540,11 +570,20 @@
     <Compile Include="..\Steam.Models\SteamStore\StoreScreenshotModel.cs">
       <Link>SteamStore\StoreScreenshotModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreSpecialsModel.cs">
+      <Link>SteamStore\StoreSpecialsModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\SteamStore\StoreSubModel.cs">
       <Link>SteamStore\StoreSubModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\SteamStore\StoreSupportInfoModel.cs">
       <Link>SteamStore\StoreSupportInfoModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreTopSellersModel.cs">
+      <Link>SteamStore\StoreTopSellersModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamStore\StoreTrailerSlideshowModel.cs">
+      <Link>SteamStore\StoreTrailerSlideshowModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\SteamStore\StoreWebmModel.cs">
       <Link>SteamStore\StoreWebmModel.cs</Link>
