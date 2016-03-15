@@ -5,5 +5,9 @@
         public string APIName { get; set; }
 
         public int Achieved { get; set; }
+
+        public string Name { get; set; }
+
+        public string Description { get; set; }
     }
 }

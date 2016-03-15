@@ -6,5 +6,6 @@
         public int Id { get; set; }
         public int Order { get; set; }
         public string Color { get; set; }
+        public string LocalizedName { get; set; }
     }
 }
