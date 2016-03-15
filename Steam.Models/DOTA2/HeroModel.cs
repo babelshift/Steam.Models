@@ -2,7 +2,8 @@
 {
     public class HeroModel
     {
-        public string Name { get; set; }
         public int Id { get; set; }
+        public string Name { get; set; }
+        public string LocalizedName { get; set; }
     }
 }
