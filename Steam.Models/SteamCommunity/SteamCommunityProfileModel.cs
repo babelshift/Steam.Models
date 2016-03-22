@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Steam.Models.SteamCommunity
 {
-    public class SteamCommunityProfile
+    public class SteamCommunityProfileModel
     {
         public long SteamID { get; set; }
         public string Nickname { get; set; }
@@ -24,10 +24,10 @@ namespace Steam.Models.SteamCommunity
         public string Location { get; set; }
         public string RealName { get; set; }
         public string Summary { get; set; }
-        public IReadOnlyCollection<MostPlayedGame> MostPlayedGames { get; set; }
-        public IReadOnlyCollection<WebLink> WebLinks { get; set; }
+        public IReadOnlyCollection<MostPlayedGameModel> MostPlayedGames { get; set; }
+        public IReadOnlyCollection<WebLinkModel> WebLinks { get; set; }
 
-        public class MostPlayedGame
+        public class MostPlayedGameModel
         {
             public string Name { get; set; }
             public Uri Link { get; set; }
@@ -39,7 +39,7 @@ namespace Steam.Models.SteamCommunity
             public string StatsName { get; set; }
         }
 
-        public class WebLink
+        public class WebLinkModel
         {
             public string Title { get; set; }
             public Uri Link { get; set; }
