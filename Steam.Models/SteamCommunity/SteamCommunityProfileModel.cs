@@ -24,25 +24,18 @@ namespace Steam.Models.SteamCommunity
         public string Location { get; set; }
         public string RealName { get; set; }
         public string Summary { get; set; }
-        public IReadOnlyCollection<MostPlayedGameModel> MostPlayedGames { get; set; }
-        public IReadOnlyCollection<WebLinkModel> WebLinks { get; set; }
+        public IReadOnlyCollection<SteamCommunityProfileMostPlayedGameModel> MostPlayedGames { get; set; }
+    }
 
-        public class MostPlayedGameModel
-        {
-            public string Name { get; set; }
-            public Uri Link { get; set; }
-            public Uri Icon { get; set; }
-            public Uri Logo { get; set; }
-            public Uri LogoSmall { get; set; }
-            public double HoursPlayed { get; set; }
-            public double HoursOnRecord { get; set; }
-            public string StatsName { get; set; }
-        }
-
-        public class WebLinkModel
-        {
-            public string Title { get; set; }
-            public Uri Link { get; set; }
-        }
+    public class SteamCommunityProfileMostPlayedGameModel
+    {
+        public string Name { get; set; }
+        public Uri Link { get; set; }
+        public Uri Icon { get; set; }
+        public Uri Logo { get; set; }
+        public Uri LogoSmall { get; set; }
+        public double HoursPlayed { get; set; }
+        public double HoursOnRecord { get; set; }
+        public string StatsName { get; set; }
     }
 }
