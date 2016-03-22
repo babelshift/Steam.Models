@@ -414,8 +414,8 @@
     <Compile Include="..\Steam.Models\SteamCommunity\RecentlyPlayedGamesResultModel.cs">
       <Link>SteamCommunity\RecentlyPlayedGamesResultModel.cs</Link>
     </Compile>
-    <Compile Include="..\Steam.Models\SteamCommunity\SteamCommunityProfile.cs">
-      <Link>SteamCommunity\SteamCommunityProfile.cs</Link>
+    <Compile Include="..\Steam.Models\SteamCommunity\SteamCommunityProfileModel.cs">
+      <Link>SteamCommunity\SteamCommunityProfileModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\SteamCommunity\UserStatus.cs">
       <Link>SteamCommunity\UserStatus.cs</Link>

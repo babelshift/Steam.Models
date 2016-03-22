@@ -170,7 +170,7 @@
     <Compile Include="SteamCommunity\ProfileVisibility.cs" />
     <Compile Include="SteamCommunity\RecentlyPlayedGameModel.cs" />
     <Compile Include="SteamCommunity\RecentlyPlayedGamesResultModel.cs" />
-    <Compile Include="SteamCommunity\SteamCommunityProfile.cs" />
+    <Compile Include="SteamCommunity\SteamCommunityProfileModel.cs" />
     <Compile Include="SteamCommunity\UserStatus.cs" />
     <Compile Include="SteamEconomy\AssetClassActionModel.cs" />
     <Compile Include="SteamEconomy\AssetClassAppDataFilterModel.cs" />
