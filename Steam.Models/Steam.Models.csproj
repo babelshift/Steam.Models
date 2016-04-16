@@ -96,6 +96,9 @@
     <Compile Include="DOTA2\LiveLeagueGameTeamRadiantDetailModel.cs" />
     <Compile Include="DOTA2\LiveLeagueGameTeamRadiantInfoModel.cs" />
     <Compile Include="DOTA2\MatchDetailModel.cs" />
+    <Compile Include="DOTA2\MatchHistoryBySequenceNumberMatchModel.cs" />
+    <Compile Include="DOTA2\MatchHistoryBySequenceNumberMatchPlayerAbilityUpgradeModel.cs" />
+    <Compile Include="DOTA2\MatchHistoryBySequenceNumberMatchPlayerModel.cs" />
     <Compile Include="DOTA2\MatchHistoryMatchModel.cs" />
     <Compile Include="DOTA2\MatchHistoryModel.cs" />
     <Compile Include="DOTA2\MatchHistoryPlayerModel.cs" />
