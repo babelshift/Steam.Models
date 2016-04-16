@@ -19,14 +19,23 @@ namespace Steam.Models.DOTA2
         public long MatchId { get; set; }
         
         public int MatchSequenceNumber { get; set; }
-        
-        public int RadiantTowerStatus { get; set; }
-        
-        public int DireTowerStatus { get; set; }
-        
-        public int RadiantBarracksStatus { get; set; }
-        
-        public int DireBarracksStatus { get; set; }
+
+        public TowerStateModel TowerStatesRadiant { get { return new TowerStateModel(TowerStatusRadiant); } }
+
+
+        public int TowerStatusRadiant { get; set; }
+
+        public TowerStateModel TowerStatesDire { get { return new TowerStateModel(TowerStatusRadiant); } }
+
+        public int TowerStatusDire { get; set; }
+
+        public BarracksStateModel BarracksStatesRadiant { get { return new BarracksStateModel(BarracksStatusRadiant); } }
+
+        public int BarracksStatusRadiant { get; set; }
+
+        public BarracksStateModel BarracksStatesDire { get { return new BarracksStateModel(BarracksStatusDire); } }
+
+        public int BarracksStatusDire { get; set; }
         
         public int Cluster { get; set; }
         

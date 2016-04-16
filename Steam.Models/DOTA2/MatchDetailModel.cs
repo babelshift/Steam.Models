@@ -26,11 +26,11 @@ namespace Steam.Models.DOTA2
 
         public int BarracksStatusRadiant { get; set; }
 
-        public BarracksStateModel BarracksStatesRadiant { get { return new BarracksStateModel(TowerStatusRadiant); } }
+        public BarracksStateModel BarracksStatesRadiant { get { return new BarracksStateModel(BarracksStatusRadiant); } }
 
         public int BarracksStatusDire { get; set; }
 
-        public BarracksStateModel BarracksStatesDire { get { return new BarracksStateModel(TowerStatusDire); } }
+        public BarracksStateModel BarracksStatesDire { get { return new BarracksStateModel(BarracksStatusDire); } }
 
         public int Cluster { get; set; }
 
