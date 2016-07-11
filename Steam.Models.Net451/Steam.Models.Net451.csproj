@@ -200,6 +200,15 @@
     <Compile Include="..\Steam.Models\DOTA2\MatchDetailModel.cs">
       <Link>DOTA2\MatchDetailModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\MatchHistoryBySequenceNumberMatchModel.cs">
+      <Link>DOTA2\MatchHistoryBySequenceNumberMatchModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\MatchHistoryBySequenceNumberMatchPlayerAbilityUpgradeModel.cs">
+      <Link>DOTA2\MatchHistoryBySequenceNumberMatchPlayerAbilityUpgradeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\MatchHistoryBySequenceNumberMatchPlayerModel.cs">
+      <Link>DOTA2\MatchHistoryBySequenceNumberMatchPlayerModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\MatchHistoryMatchModel.cs">
       <Link>DOTA2\MatchHistoryMatchModel.cs</Link>
     </Compile>
