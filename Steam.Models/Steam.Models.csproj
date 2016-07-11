@@ -54,6 +54,7 @@
     <Compile Include="DOTA2\AbilitySpecialSchemaItemModel.cs" />
     <Compile Include="DOTA2\BarracksStateModel.cs" />
     <Compile Include="DOTA2\DotaAttackType.cs" />
+    <Compile Include="DOTA2\DotaBlogFeedItem.cs" />
     <Compile Include="DOTA2\DotaDamageType.cs" />
     <Compile Include="DOTA2\DotaEnumType.cs" />
     <Compile Include="DOTA2\DotaHeroAbilityBehaviorType.cs" />

@@ -79,3 +79,4 @@ _[Ss]cripts
 DotaDb/App_Data/
 .vs/
 DotaDb/Content/logos/leagues/
+Steam.Models.Portable/project.lock.json

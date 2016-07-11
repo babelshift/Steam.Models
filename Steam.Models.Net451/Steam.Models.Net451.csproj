@@ -71,6 +71,9 @@
     <Compile Include="..\Steam.Models\DOTA2\DotaAttackType.cs">
       <Link>DOTA2\DotaAttackType.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\DOTA2\DotaBlogFeedItem.cs">
+      <Link>DOTA2\DotaBlogFeedItem.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\DOTA2\DotaDamageType.cs">
       <Link>DOTA2\DotaDamageType.cs</Link>
     </Compile>
