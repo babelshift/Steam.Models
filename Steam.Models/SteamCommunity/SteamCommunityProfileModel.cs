@@ -26,7 +26,7 @@ namespace Steam.Models.SteamCommunity
         public string Summary { get; set; }
         public IReadOnlyCollection<SteamCommunityProfileMostPlayedGameModel> MostPlayedGames { get; set; }
         public string InGameServerIP { get; set; }
-        public InGameInfo InGameInfo { get; set; }
+        public InGameInfoModel InGameInfo { get; set; }
     }
 
     public class SteamCommunityProfileMostPlayedGameModel
@@ -41,7 +41,7 @@ namespace Steam.Models.SteamCommunity
         public string StatsName { get; set; }
     }
 
-    public class InGameInfo
+    public class InGameInfoModel
     {
         public string GameName { get; set; }
         public string GameLink { get; set; }
