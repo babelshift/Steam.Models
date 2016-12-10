@@ -8,6 +8,12 @@ namespace Steam.Models.DOTA2
 
         public string Name { get; set; }
 
+        /// <summary>
+        /// Valve's source files don't include localized names. Instead, the callers are responsibel for populating this value
+        /// by performing a lookup in the various language/token mapping files.
+        /// </summary>
+        public string LocalizedName { get; set; }
+
         public string AbilityBehavior { get; set; }
 
         public string AbilityCastRange { get; set; }
