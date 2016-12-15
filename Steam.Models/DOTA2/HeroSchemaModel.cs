@@ -64,6 +64,22 @@
 
         public string Ability16 { get; set; }
 
+        public string Ability17 { get; set; }
+
+        public string Ability18 { get; set; }
+
+        public string Ability19 { get; set; }
+
+        public string Ability20 { get; set; }
+
+        public string Ability21 { get; set; }
+
+        public string Ability22 { get; set; }
+
+        public string Ability23 { get; set; }
+
+        public string Ability24 { get; set; }
+
         public double ArmorPhysical { get; set; }
 
         public string MagicalResistance { get; set; }
