@@ -6,7 +6,7 @@
 
         public int TeamId { get; set; }
 
-        public long TeamLogo { get; set; }
+        public ulong TeamLogo { get; set; }
 
         public bool Complete { get; set; }
     }
