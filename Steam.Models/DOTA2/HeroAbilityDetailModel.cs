@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Steam.Models.DOTA2
 {
@@ -28,6 +30,12 @@ namespace Steam.Models.DOTA2
         public string Note3 { get; set; }
         public string Note4 { get; set; }
         public string Note5 { get; set; }
-        public bool HasLinkedSpecialBonus { get; set; }
+        public bool HasLinkedSpecialBonus
+        {
+            get
+            {
+                return Attributes.Any(x => !String.IsNullOrWhiteSpace(x.LinkedSpecialBonus));
+            }
+        }
     }
 }
