@@ -603,6 +603,66 @@
     <Compile Include="..\Steam.Models\TF2\GoldenWrenchModel.cs">
       <Link>TF2\GoldenWrenchModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaAdditionalHiddenBodygroupsModel.cs">
+      <Link>TF2\SchemaAdditionalHiddenBodygroupsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaAttributeControlledAttachedParticleModel.cs">
+      <Link>TF2\SchemaAttributeControlledAttachedParticleModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaAttributeModel.cs">
+      <Link>TF2\SchemaAttributeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaCapabilitiesModel.cs">
+      <Link>TF2\SchemaCapabilitiesModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaItemAttributeModel.cs">
+      <Link>TF2\SchemaItemAttributeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaItemLevelModel.cs">
+      <Link>TF2\SchemaItemLevelModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaItemModel.cs">
+      <Link>TF2\SchemaItemModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaItemSetAttributeModel.cs">
+      <Link>TF2\SchemaItemSetAttributeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaItemSetModel.cs">
+      <Link>TF2\SchemaItemSetModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaKillEaterScoreTypeModel.cs">
+      <Link>TF2\SchemaKillEaterScoreTypeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaLevelModel.cs">
+      <Link>TF2\SchemaLevelModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaModel.cs">
+      <Link>TF2\SchemaModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaOriginNameModel.cs">
+      <Link>TF2\SchemaOriginNameModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaPerClassLoadoutSlotsModel.cs">
+      <Link>TF2\SchemaPerClassLoadoutSlotsModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaQualitiesModel.cs">
+      <Link>TF2\SchemaQualitiesModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaStringLookupModel.cs">
+      <Link>TF2\SchemaStringLookupModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaStringModel.cs">
+      <Link>TF2\SchemaStringModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaStyleModel.cs">
+      <Link>TF2\SchemaStyleModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaToolModel.cs">
+      <Link>TF2\SchemaToolModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\TF2\SchemaUsageCapabilitiesModel.cs">
+      <Link>TF2\SchemaUsageCapabilitiesModel.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\UGCFileDetailsModel.cs">
       <Link>UGCFileDetailsModel.cs</Link>
     </Compile>

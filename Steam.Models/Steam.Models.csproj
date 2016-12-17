@@ -231,6 +231,26 @@
     <Compile Include="SteamStore\StoreTrailerSlideshowModel.cs" />
     <Compile Include="SteamStore\StoreWebmModel.cs" />
     <Compile Include="TF2\GoldenWrenchModel.cs" />
+    <Compile Include="TF2\SchemaAdditionalHiddenBodygroupsModel.cs" />
+    <Compile Include="TF2\SchemaAttributeControlledAttachedParticleModel.cs" />
+    <Compile Include="TF2\SchemaAttributeModel.cs" />
+    <Compile Include="TF2\SchemaCapabilitiesModel.cs" />
+    <Compile Include="TF2\SchemaItemAttributeModel.cs" />
+    <Compile Include="TF2\SchemaItemLevelModel.cs" />
+    <Compile Include="TF2\SchemaItemModel.cs" />
+    <Compile Include="TF2\SchemaItemSetAttributeModel.cs" />
+    <Compile Include="TF2\SchemaItemSetModel.cs" />
+    <Compile Include="TF2\SchemaKillEaterScoreTypeModel.cs" />
+    <Compile Include="TF2\SchemaLevelModel.cs" />
+    <Compile Include="TF2\SchemaModel.cs" />
+    <Compile Include="TF2\SchemaOriginNameModel.cs" />
+    <Compile Include="TF2\SchemaPerClassLoadoutSlotsModel.cs" />
+    <Compile Include="TF2\SchemaQualitiesModel.cs" />
+    <Compile Include="TF2\SchemaStringLookupModel.cs" />
+    <Compile Include="TF2\SchemaStringModel.cs" />
+    <Compile Include="TF2\SchemaStyleModel.cs" />
+    <Compile Include="TF2\SchemaToolModel.cs" />
+    <Compile Include="TF2\SchemaUsageCapabilitiesModel.cs" />
     <Compile Include="UGCFileDetailsModel.cs" />
     <Compile Include="Utilities\DateTimeExtensions.cs" />
   </ItemGroup>
