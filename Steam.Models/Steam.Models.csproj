@@ -190,6 +190,15 @@
     <Compile Include="SteamEconomy\AssetPricesModel.cs" />
     <Compile Include="SteamEconomy\AssetTagIdsModel.cs" />
     <Compile Include="SteamEconomy\AssetTagsModel.cs" />
+    <Compile Include="SteamEconomy\TradeAssetModel.cs" />
+    <Compile Include="SteamEconomy\TradedAssetModel.cs" />
+    <Compile Include="SteamEconomy\TradedCurrencyModel.cs" />
+    <Compile Include="SteamEconomy\TradeHistoryModel.cs" />
+    <Compile Include="SteamEconomy\TradeModel.cs" />
+    <Compile Include="SteamEconomy\TradeOfferConfirmationMethod.cs" />
+    <Compile Include="SteamEconomy\TradeOfferModel.cs" />
+    <Compile Include="SteamEconomy\TradeOfferState.cs" />
+    <Compile Include="SteamEconomy\TradeStatus.cs" />
     <Compile Include="SteamInterfaceModel.cs" />
     <Compile Include="SteamMethodModel.cs" />
     <Compile Include="SteamNewsResultModel.cs" />

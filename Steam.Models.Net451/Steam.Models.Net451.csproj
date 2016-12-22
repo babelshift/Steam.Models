@@ -476,6 +476,33 @@
     <Compile Include="..\Steam.Models\SteamEconomy\AssetTagsModel.cs">
       <Link>SteamEconomy\AssetTagsModel.cs</Link>
     </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeAssetModel.cs">
+      <Link>SteamEconomy\TradeAssetModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradedAssetModel.cs">
+      <Link>SteamEconomy\TradedAssetModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradedCurrencyModel.cs">
+      <Link>SteamEconomy\TradedCurrencyModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeHistoryModel.cs">
+      <Link>SteamEconomy\TradeHistoryModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeModel.cs">
+      <Link>SteamEconomy\TradeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeOfferConfirmationMethod.cs">
+      <Link>SteamEconomy\TradeOfferConfirmationMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeOfferModel.cs">
+      <Link>SteamEconomy\TradeOfferModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeOfferState.cs">
+      <Link>SteamEconomy\TradeOfferState.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeStatus.cs">
+      <Link>SteamEconomy\TradeStatus.cs</Link>
+    </Compile>
     <Compile Include="..\Steam.Models\SteamInterfaceModel.cs">
       <Link>SteamInterfaceModel.cs</Link>
     </Compile>
