@@ -495,8 +495,11 @@
     <Compile Include="..\Steam.Models\SteamEconomy\TradeOfferModel.cs">
       <Link>SteamEconomy\TradeOfferModel.cs</Link>
     </Compile>
-    <Compile Include="..\Steam.Models\SteamEconomy\TradeOffersModel.cs">
-      <Link>SteamEconomy\TradeOffersModel.cs</Link>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeOfferResultModel.cs">
+      <Link>SteamEconomy\TradeOfferResultModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Steam.Models\SteamEconomy\TradeOffersResultModel.cs">
+      <Link>SteamEconomy\TradeOffersResultModel.cs</Link>
     </Compile>
     <Compile Include="..\Steam.Models\SteamEconomy\TradeOfferState.cs">
       <Link>SteamEconomy\TradeOfferState.cs</Link>
