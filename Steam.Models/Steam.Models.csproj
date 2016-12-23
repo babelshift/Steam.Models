@@ -197,6 +197,7 @@
     <Compile Include="SteamEconomy\TradeModel.cs" />
     <Compile Include="SteamEconomy\TradeOfferConfirmationMethod.cs" />
     <Compile Include="SteamEconomy\TradeOfferModel.cs" />
+    <Compile Include="SteamEconomy\TradeOffersModel.cs" />
     <Compile Include="SteamEconomy\TradeOfferState.cs" />
     <Compile Include="SteamEconomy\TradeStatus.cs" />
     <Compile Include="SteamInterfaceModel.cs" />
