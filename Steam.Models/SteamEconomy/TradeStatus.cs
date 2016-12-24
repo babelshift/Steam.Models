@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Steam.Models.SteamEconomy
+﻿namespace Steam.Models.SteamEconomy
 {
+    /// <summary>
+    /// Tracks the status of a trade after a trade offer has been accepted.
+    /// </summary>
     public enum TradeStatus
     {
         Init = 0,

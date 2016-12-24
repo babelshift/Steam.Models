@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Steam.Models.SteamEconomy
+﻿namespace Steam.Models.SteamEconomy
 {
+    /// <summary>
+    /// These are the different states for a trade offer.
+    /// </summary>
     public enum TradeOfferState
     {
         Invalid = 1,
