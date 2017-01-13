@@ -4,7 +4,7 @@
     {
         public string Name { get; set; }
 
-        public long DefaultValue { get; set; }
+        public ulong DefaultValue { get; set; }
 
         public string DisplayName { get; set; }
     }
