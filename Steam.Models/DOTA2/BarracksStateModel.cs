@@ -6,7 +6,7 @@
         {
         }
 
-        public BarracksStateModel(int barracksState)
+        public BarracksStateModel(uint barracksState)
         {
             IsTopMeleeAlive = ((barracksState >> 0) & 1) == 1 ? true : false;
             IsTopRangedAlive = ((barracksState >> 1) & 1) == 1 ? true : false;

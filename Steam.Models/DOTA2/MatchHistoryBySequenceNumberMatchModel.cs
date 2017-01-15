@@ -12,53 +12,52 @@ namespace Steam.Models.DOTA2
         
         public bool RadiantWin { get; set; }
         
-        public int Duration { get; set; }
+        public uint Duration { get; set; }
         
         public DateTime StartTime { get; set; }
         
-        public long MatchId { get; set; }
+        public ulong MatchId { get; set; }
         
-        public int MatchSequenceNumber { get; set; }
+        public uint MatchSequenceNumber { get; set; }
 
         public TowerStateModel TowerStatesRadiant { get { return new TowerStateModel(TowerStatusRadiant); } }
-
-
-        public int TowerStatusRadiant { get; set; }
+        
+        public uint TowerStatusRadiant { get; set; }
 
         public TowerStateModel TowerStatesDire { get { return new TowerStateModel(TowerStatusRadiant); } }
 
-        public int TowerStatusDire { get; set; }
+        public uint TowerStatusDire { get; set; }
 
         public BarracksStateModel BarracksStatesRadiant { get { return new BarracksStateModel(BarracksStatusRadiant); } }
 
-        public int BarracksStatusRadiant { get; set; }
+        public uint BarracksStatusRadiant { get; set; }
 
         public BarracksStateModel BarracksStatesDire { get { return new BarracksStateModel(BarracksStatusDire); } }
 
-        public int BarracksStatusDire { get; set; }
+        public uint BarracksStatusDire { get; set; }
         
-        public int Cluster { get; set; }
+        public uint Cluster { get; set; }
         
-        public long FirstBloodTime { get; set; }
+        public DateTime FirstBloodTime { get; set; }
         
-        public int LobbyType { get; set; }
+        public uint LobbyType { get; set; }
         
-        public int HumanPlayers { get; set; }
+        public uint HumanPlayers { get; set; }
         
-        public int LeagueId { get; set; }
+        public uint LeagueId { get; set; }
         
-        public int PositiveVotes { get; set; }
+        public uint PositiveVotes { get; set; }
         
-        public int NegativeVotes { get; set; }
+        public uint NegativeVotes { get; set; }
         
-        public int GameMode { get; set; }
+        public uint GameMode { get; set; }
         
-        public int Flags { get; set; }
+        public uint Flags { get; set; }
         
-        public int Engine { get; set; }
+        public uint Engine { get; set; }
         
-        public int RadiantScore { get; set; }
+        public uint RadiantScore { get; set; }
         
-        public int DireScore { get; set; }
+        public uint DireScore { get; set; }
     }
 }

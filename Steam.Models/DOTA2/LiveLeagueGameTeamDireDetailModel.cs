@@ -4,11 +4,11 @@ namespace Steam.Models.DOTA2
 {
     public class LiveLeagueGameTeamDireDetailModel
     {
-        public int Score { get; set; }
+        public uint Score { get; set; }
 
-        public int TowerState { get; set; }
+        public uint TowerState { get; set; }
 
-        public int BarracksState { get; set; }
+        public uint BarracksState { get; set; }
 
         public IReadOnlyCollection<LiveLeagueGamePickModel> Picks { get; set; }
         public IReadOnlyCollection<LiveLeagueGameBanModel> Bans { get; set; }

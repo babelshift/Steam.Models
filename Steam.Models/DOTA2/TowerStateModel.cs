@@ -6,7 +6,7 @@
         {
         }
 
-        public TowerStateModel(int towerState)
+        public TowerStateModel(uint towerState)
         {
             IsAncientBottomAlive = ((towerState >> 10) & 1) == 1 ? true : false;
             IsAncientTopAlive = ((towerState >> 9) & 1) == 1 ? true : false;
