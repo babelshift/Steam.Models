@@ -4,6 +4,6 @@
     {
         public string Name { get; set; }
 
-        public int Achieved { get; set; }
+        public uint Achieved { get; set; }
     }
 }

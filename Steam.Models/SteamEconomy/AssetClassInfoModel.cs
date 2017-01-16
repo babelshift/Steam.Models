@@ -44,6 +44,6 @@ namespace Steam.Models.SteamEconomy
 
         public AssetClassAppDataModel AppData { get; set; }
 
-        public long ClassId { get; set; }
+        public ulong ClassId { get; set; }
     }
 }

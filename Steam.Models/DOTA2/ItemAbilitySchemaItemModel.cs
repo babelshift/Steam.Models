@@ -4,7 +4,7 @@ namespace Steam.Models.DOTA2
 {
     public class ItemAbilitySchemaItemModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
 
         public string Name { get; set; }
 
@@ -44,7 +44,7 @@ namespace Steam.Models.DOTA2
 
         public IList<AbilitySpecialSchemaItemModel> AbilitySpecials { get; set; }
 
-        public int ItemCost { get; set; }
+        public uint ItemCost { get; set; }
 
         public string ItemShopTags { get; set; }
 
@@ -56,13 +56,13 @@ namespace Steam.Models.DOTA2
 
         public bool ItemPermanent { get; set; }
 
-        public int? ItemInitialCharges { get; set; }
+        public uint? ItemInitialCharges { get; set; }
 
-        public int? ItemDisplayCharges { get; set; }
+        public uint? ItemDisplayCharges { get; set; }
 
-        public int? ItemStockMax { get; set; }
+        public uint? ItemStockMax { get; set; }
 
-        public int? ItemStockInitial { get; set; }
+        public uint? ItemStockInitial { get; set; }
 
         public double? ItemStockTime { get; set; }
 

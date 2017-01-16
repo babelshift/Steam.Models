@@ -8,10 +8,10 @@ namespace Steam.Models.DOTA2
 {
     public class MatchHistoryBySequenceNumberMatchPlayerAbilityUpgradeModel
     {
-        public int Ability { get; set; }
+        public uint Ability { get; set; }
         
         public int Time { get; set; }
         
-        public int Level { get; set; }
+        public uint Level { get; set; }
     }
 }

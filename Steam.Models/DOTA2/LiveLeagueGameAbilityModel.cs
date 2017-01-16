@@ -2,8 +2,8 @@
 {
     public class LiveLeagueGameAbilityModel
     {
-        public int AbilityId { get; set; }
-
-        public int AbilityLevel { get; set; }
+        public uint AbilityId { get; set; }
+        
+        public uint AbilityLevel { get; set; }
     }
 }

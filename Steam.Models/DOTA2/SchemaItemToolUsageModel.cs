@@ -2,7 +2,7 @@
 {
     public class SchemaItemToolUsageModel
     {
-        public int LeagueId { get; set; }
+        public uint LeagueId { get; set; }
 
         public string Tier { get; set; }
 

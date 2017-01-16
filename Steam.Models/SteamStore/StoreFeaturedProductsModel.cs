@@ -18,6 +18,6 @@ namespace Steam.Models.SteamStore
         
         public string Layout { get; set; }
         
-        public int Status { get; set; }
+        public uint Status { get; set; }
     }
 }

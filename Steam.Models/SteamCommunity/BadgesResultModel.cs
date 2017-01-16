@@ -6,12 +6,12 @@ namespace Steam.Models.SteamCommunity
     {
         public IReadOnlyCollection<BadgeModel> Badges { get; set; }
 
-        public int PlayerXp { get; set; }
+        public uint PlayerXp { get; set; }
 
-        public int PlayerLevel { get; set; }
+        public uint PlayerLevel { get; set; }
 
-        public int PlayerXpNeededToLevelUp { get; set; }
+        public uint PlayerXpNeededToLevelUp { get; set; }
 
-        public int PlayerXpNeededCurrentLevel { get; set; }
+        public uint PlayerXpNeededCurrentLevel { get; set; }
     }
 }

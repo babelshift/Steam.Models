@@ -8,9 +8,9 @@
 
         public string CountryCode { get; set; }
 
-        public int FantasyRole { get; set; }
+        public uint FantasyRole { get; set; }
 
-        public int TeamId { get; set; }
+        public uint TeamId { get; set; }
 
         public string TeamName { get; set; }
 

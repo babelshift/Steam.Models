@@ -4,7 +4,7 @@ namespace Steam.Models.DOTA2
 {
     public class AbilitySchemaItemModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
 
         public string Name { get; set; }
 
@@ -20,7 +20,7 @@ namespace Steam.Models.DOTA2
 
         public string AbilityCastRange { get; set; }
 
-        public int AbilityRangeBuffer { get; set; }
+        public uint AbilityRangeBuffer { get; set; }
 
         public string AbilityCastPoint { get; set; }
 

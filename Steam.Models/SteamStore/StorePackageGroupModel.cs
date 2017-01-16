@@ -18,7 +18,7 @@ namespace Steam.Models.SteamStore
         
         public string SaveText { get; set; }
         
-        public int DisplayType { get; set; }
+        public uint DisplayType { get; set; }
         
         public string IsRecurringSubscription { get; set; }
         

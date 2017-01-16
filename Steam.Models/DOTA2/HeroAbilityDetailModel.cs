@@ -6,7 +6,7 @@ namespace Steam.Models.DOTA2
 {
     public class HeroAbilityDetailModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
         public string Name { get; set; }
         public string AvatarImagePath { get; set; }
         public string Description { get; set; }

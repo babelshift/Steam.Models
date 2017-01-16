@@ -2,7 +2,7 @@
 {
     public class EconItemAttributeModel
     {
-        public int DefIndex { get; set; }
+        public uint DefIndex { get; set; }
         public object Value { get; set; }
 
         public double FloatValue { get; set; }

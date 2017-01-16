@@ -4,7 +4,7 @@ namespace Steam.Models
 {
     public class SteamNewsResultModel
     {
-        public int AppId { get; set; }
+        public uint AppId { get; set; }
 
         public IReadOnlyCollection<NewsItemModel> NewsItems { get; set; }
     }

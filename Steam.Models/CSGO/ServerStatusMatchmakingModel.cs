@@ -4,12 +4,12 @@
     {
         public string Scheduler { get; set; }
 
-        public int OnlineServers { get; set; }
+        public uint OnlineServers { get; set; }
 
-        public int OnlinePlayers { get; set; }
+        public uint OnlinePlayers { get; set; }
 
-        public int SearchingPlayers { get; set; }
+        public uint SearchingPlayers { get; set; }
 
-        public int SearchSecondsAverage { get; set; }
+        public uint SearchSecondsAverage { get; set; }
     }
 }

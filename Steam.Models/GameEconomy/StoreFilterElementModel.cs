@@ -6,6 +6,6 @@
 
         public string LocalizedText { get; set; }
 
-        public int Id { get; set; }
+        public uint Id { get; set; }
     }
 }

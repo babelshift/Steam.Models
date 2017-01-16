@@ -8,7 +8,7 @@
 
         public bool VersionIsListable { get; set; }
 
-        public int RequiredVersion { get; set; }
+        public uint RequiredVersion { get; set; }
 
         public string Message { get; set; }
     }

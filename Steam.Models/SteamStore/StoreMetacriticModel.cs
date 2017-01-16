@@ -8,7 +8,7 @@ namespace Steam.Models.SteamStore
 {
     public class StoreMetacriticModel
     {
-        public int Score { get; set; }
+        public uint Score { get; set; }
         
         public string Url { get; set; }
     }

@@ -2,11 +2,11 @@
 {
     public class OwnedGameModel
     {
-        public int AppId { get; set; }
+        public uint AppId { get; set; }
 
         public string Name { get; set; }
 
-        public int PlaytimeForever { get; set; }
+        public uint PlaytimeForever { get; set; }
 
         public string ImgIconUrl { get; set; }
 
@@ -14,6 +14,6 @@
 
         public bool HasCommunityVisibleStats { get; set; }
 
-        public int? Playtime2weeks { get; set; }
+        public uint? Playtime2weeks { get; set; }
     }
 }

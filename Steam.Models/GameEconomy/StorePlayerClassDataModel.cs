@@ -2,7 +2,7 @@
 {
     public class StorePlayerClassDataModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
 
         public string BaseName { get; set; }
 

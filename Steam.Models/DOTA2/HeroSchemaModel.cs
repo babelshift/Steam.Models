@@ -2,7 +2,7 @@
 {
     public class HeroSchemaModel
     {
-        public int HeroId { get; set; }
+        public uint HeroId { get; set; }
 
         public string Name { get; set; }
 
@@ -86,9 +86,9 @@
 
         public string AttackCapabilities { get; set; }
 
-        public int AttackDamageMin { get; set; }
+        public uint AttackDamageMin { get; set; }
 
-        public int AttackDamageMax { get; set; }
+        public uint AttackDamageMax { get; set; }
 
         public string AttackDamageType { get; set; }
 
@@ -96,51 +96,51 @@
 
         public double AttackAnimationPoint { get; set; }
 
-        public int AttackAcquisitionRange { get; set; }
+        public uint AttackAcquisitionRange { get; set; }
 
-        public int AttackRange { get; set; }
+        public uint AttackRange { get; set; }
 
         public string ProjectileModel { get; set; }
 
-        public int ProjectileSpeed { get; set; }
+        public uint ProjectileSpeed { get; set; }
 
         public string AttributePrimary { get; set; }
 
-        public int AttributeBaseStrength { get; set; }
+        public uint AttributeBaseStrength { get; set; }
 
         public double AttributeStrengthGain { get; set; }
 
-        public int AttributeBaseIntelligence { get; set; }
+        public uint AttributeBaseIntelligence { get; set; }
 
         public double AttributeIntelligenceGain { get; set; }
 
-        public int AttributeBaseAgility { get; set; }
+        public uint AttributeBaseAgility { get; set; }
 
         public double AttributeAgilityGain { get; set; }
 
-        public int BountyXP { get; set; }
+        public uint BountyXP { get; set; }
 
-        public int BountyGoldMin { get; set; }
+        public uint BountyGoldMin { get; set; }
 
-        public int BountyGoldMax { get; set; }
+        public uint BountyGoldMax { get; set; }
 
         public string BoundsHullName { get; set; }
 
-        public int RingRadius { get; set; }
+        public uint RingRadius { get; set; }
 
         public string MovementCapabilities { get; set; }
 
-        public int MovementSpeed { get; set; }
+        public uint MovementSpeed { get; set; }
 
         public double MovementTurnRate { get; set; }
 
         public bool HasAggressiveStance { get; set; }
 
-        public int StatusHealth { get; set; }
+        public uint StatusHealth { get; set; }
 
         public double StatusHealthRegen { get; set; }
 
-        public int StatusMana { get; set; }
+        public uint StatusMana { get; set; }
 
         public double StatusManaRegen { get; set; }
 
@@ -154,15 +154,15 @@
 
         public string UnitRelationshipClass { get; set; }
 
-        public int VisionDaytimeRange { get; set; }
+        public uint VisionDaytimeRange { get; set; }
 
-        public int VisionNighttimeRange { get; set; }
+        public uint VisionNighttimeRange { get; set; }
 
         public bool HasInventory { get; set; }
 
         public string VoiceBackgroundSound { get; set; }
 
-        public int HealthBarOffset { get; set; }
+        public uint HealthBarOffset { get; set; }
 
         public string IdleExpression { get; set; }
 

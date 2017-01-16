@@ -2,8 +2,8 @@
 {
     public class EconItemEquippedModel
     {
-        public int ClassId { get; set; }
+        public uint ClassId { get; set; }
 
-        public int Slot { get; set; }
+        public uint Slot { get; set; }
     }
 }

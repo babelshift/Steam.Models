@@ -4,13 +4,13 @@ namespace Steam.Models.DOTA2
 {
     public class MatchHistoryModel
     {
-        public int Status { get; set; }
+        public uint Status { get; set; }
 
-        public int NumResults { get; set; }
+        public uint NumResults { get; set; }
 
-        public int TotalResults { get; set; }
+        public uint TotalResults { get; set; }
 
-        public int ResultsRemaining { get; set; }
+        public uint ResultsRemaining { get; set; }
 
         public IReadOnlyCollection<MatchHistoryMatchModel> Matches { get; set; }
     }

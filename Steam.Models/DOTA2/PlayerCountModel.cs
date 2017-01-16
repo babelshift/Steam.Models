@@ -2,8 +2,8 @@
 {
     public class PlayerCountModel
     {
-        public int InGamePlayerCount { get; set; }
-        public int DailyPeakPlayerCount { get; set; }
-        public int AllTimePeakPlayerCount { get; set; }
+        public uint InGamePlayerCount { get; set; }
+        public uint DailyPeakPlayerCount { get; set; }
+        public uint AllTimePeakPlayerCount { get; set; }
     }
 }

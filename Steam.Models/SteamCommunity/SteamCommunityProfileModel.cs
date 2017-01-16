@@ -5,11 +5,11 @@ namespace Steam.Models.SteamCommunity
 {
     public class SteamCommunityProfileModel
     {
-        public long SteamID { get; set; }
+        public ulong SteamID { get; set; }
         public string Nickname { get; set; }
         public string State { get; set; }
         public string StateMessage { get; set; }
-        public int VisibilityState { get; set; } // what is this?
+        public uint VisibilityState { get; set; } // what is this?
         public Uri Avatar { get; set; }
         public Uri AvatarMedium { get; set; }
         public Uri AvatarFull { get; set; }

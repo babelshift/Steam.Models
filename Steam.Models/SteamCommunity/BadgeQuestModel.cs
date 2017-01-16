@@ -2,7 +2,7 @@
 {
     public class BadgeQuestModel
     {
-        public int QuestId { get; set; }
+        public uint QuestId { get; set; }
 
         public bool Completed { get; set; }
     }

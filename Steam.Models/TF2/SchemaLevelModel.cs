@@ -8,9 +8,9 @@ namespace Steam.Models.TF2
 {
     public class SchemaLevelModel
     {
-        public int Level { get; set; }
+        public uint Level { get; set; }
         
-        public int RequiredScore { get; set; }
+        public uint RequiredScore { get; set; }
         
         public string Name { get; set; }
     }

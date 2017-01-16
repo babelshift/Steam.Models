@@ -8,7 +8,7 @@ namespace Steam.Models.SteamStore
 {
     public class StoreScreenshotModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
         
         public string PathThumbnail { get; set; }
         

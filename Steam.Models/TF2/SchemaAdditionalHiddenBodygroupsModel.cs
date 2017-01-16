@@ -8,10 +8,10 @@ namespace Steam.Models.TF2
 {
     public class SchemaAdditionalHiddenBodygroupsModel
     {
-        public int Hat { get; set; }
+        public uint Hat { get; set; }
         
-        public int Headphones { get; set; }
+        public uint Headphones { get; set; }
         
-        public int? Head { get; set; }
+        public uint? Head { get; set; }
     }
 }

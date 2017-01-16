@@ -12,13 +12,13 @@ namespace Steam.Models.SteamStore
         
         public string Name { get; set; }
         
-        public int SteamAppid { get; set; }
+        public uint SteamAppId { get; set; }
         
-        public int RequiredAge { get; set; }
+        public uint RequiredAge { get; set; }
         
         public bool IsFree { get; set; }
         
-        public int[] Dlc { get; set; }
+        public uint[] Dlc { get; set; }
         
         public string DetailedDescription { get; set; }
         

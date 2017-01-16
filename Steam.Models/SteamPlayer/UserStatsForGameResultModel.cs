@@ -4,7 +4,7 @@ namespace Steam.Models.SteamPlayer
 {
     public class UserStatsForGameResultModel
     {
-        public string SteamId { get; set; }
+        public ulong SteamId { get; set; }
 
         public string GameName { get; set; }
 

@@ -2,7 +2,7 @@
 {
     public class SteamAppModel
     {
-        public int AppId { get; set; }
+        public uint AppId { get; set; }
 
         public string Name { get; set; }
     }
