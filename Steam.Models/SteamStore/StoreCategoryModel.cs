@@ -8,7 +8,7 @@ namespace Steam.Models.SteamStore
 {
     public class StoreCategoryModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
         
         public string Description { get; set; }
     }

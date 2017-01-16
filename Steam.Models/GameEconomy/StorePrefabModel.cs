@@ -4,7 +4,7 @@ namespace Steam.Models.GameEconomy
 {
     public class StorePrefabModel
     {
-        public object Id { get; set; }
+        public uint Id { get; set; }
 
         public string Name { get; set; }
 

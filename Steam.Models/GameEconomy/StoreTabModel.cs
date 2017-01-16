@@ -6,9 +6,9 @@ namespace Steam.Models.GameEconomy
     {
         public string Label { get; set; }
 
-        public string Id { get; set; }
+        public uint Id { get; set; }
 
-        public object ParentId { get; set; }
+        public uint ParentId { get; set; }
 
         public bool UseLargeCells { get; set; }
 
@@ -18,7 +18,7 @@ namespace Steam.Models.GameEconomy
 
         public bool Home { get; set; }
 
-        public long? DropdownPrefabId { get; set; }
+        public ulong? DropdownPrefabId { get; set; }
 
         public string ParentName { get; set; }
     }

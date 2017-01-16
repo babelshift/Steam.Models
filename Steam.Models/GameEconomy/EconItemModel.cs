@@ -4,18 +4,18 @@ namespace Steam.Models.GameEconomy
 {
     public class EconItemModel
     {
-        public long Id { get; set; }
+        public ulong Id { get; set; }
 
-        public long OriginalId { get; set; }
+        public ulong OriginalId { get; set; }
 
-        public int DefIndex { get; set; }
-        public int Level { get; set; }
-        public int Quality { get; set; }
-        public long Inventory { get; set; }
-        public int Quantity { get; set; }
-        public int Origin { get; set; }
+        public uint DefIndex { get; set; }
+        public uint Level { get; set; }
+        public uint Quality { get; set; }
+        public ulong Inventory { get; set; }
+        public uint Quantity { get; set; }
+        public uint Origin { get; set; }
         public IReadOnlyCollection<EconItemEquippedModel> Equipped { get; set; }
-        public int Style { get; set; }
+        public uint Style { get; set; }
         public IReadOnlyCollection<EconItemAttributeModel> Attributes { get; set; }
 
         public bool? FlagCannotTrade { get; set; }

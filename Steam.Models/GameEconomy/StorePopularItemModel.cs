@@ -2,8 +2,8 @@
 {
     public class StorePopularItemModel
     {
-        public int DefIndex { get; set; }
+        public uint DefIndex { get; set; }
 
-        public int Order { get; set; }
+        public uint Order { get; set; }
     }
 }

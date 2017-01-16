@@ -11,78 +11,78 @@ namespace Steam.Models.TF2
         /// <summary>
         /// Normal item rarity: https://wiki.teamfortress.com/wiki/Normal
         /// </summary>
-        public int Normal { get; set; }
+        public uint Normal { get; set; }
 
         /// <summary>
         /// Genuine item rarity: https://wiki.teamfortress.com/wiki/Genuine
         /// </summary>
-        public int Rarity1 { get; set; }
+        public uint Rarity1 { get; set; }
 
         /// <summary>
         /// Unused
         /// </summary>
-        public int Rarity2 { get; set; }
+        public uint Rarity2 { get; set; }
 
         /// <summary>
         /// Vintage item rarity: https://wiki.teamfortress.com/wiki/Vintage
         /// </summary>
-        public int Vintage { get; set; }
+        public uint Vintage { get; set; }
 
         /// <summary>
         /// Unused
         /// </summary>
-        public int Rarity3 { get; set; }
+        public uint Rarity3 { get; set; }
 
         /// <summary>
         /// Unusual item rarity: https://wiki.teamfortress.com/wiki/Unusual
         /// </summary>
-        public int Rarity4 { get; set; }
+        public uint Rarity4 { get; set; }
 
         /// <summary>
         /// Unique item rarity: https://wiki.teamfortress.com/wiki/Unique
         /// </summary>
-        public int Unique { get; set; }
+        public uint Unique { get; set; }
 
         /// <summary>
         /// Community item: https://wiki.teamfortress.com/wiki/Community_(quality)
         /// </summary>
-        public int Community { get; set; }
+        public uint Community { get; set; }
 
         /// <summary>
         /// Developer owned item: https://wiki.teamfortress.com/wiki/Valve_(quality)
         /// </summary>
-        public int Developer { get; set; }
+        public uint Developer { get; set; }
 
         /// <summary>
         /// Self made item: https://wiki.teamfortress.com/wiki/Self-Made
         /// </summary>
-        public int SelfMade { get; set; }
+        public uint SelfMade { get; set; }
 
         /// <summary>
         /// Unused
         /// </summary>
-        public int Customized { get; set; }
+        public uint Customized { get; set; }
 
         /// <summary>
         /// Strange item: https://wiki.teamfortress.com/wiki/Strange
         /// </summary>
-        public int Strange { get; set; }
+        public uint Strange { get; set; }
 
         /// <summary>
         /// Unused
         /// </summary>
-        public int Completed { get; set; }
+        public uint Completed { get; set; }
 
         /// <summary>
         /// Haunted item: https://wiki.teamfortress.com/wiki/Haunted
         /// </summary>
-        public int Haunted { get; set; }
+        public uint Haunted { get; set; }
 
         /// <summary>
         /// Collector's item: https://wiki.teamfortress.com/wiki/Collector%27s
         /// </summary>
-        public int Collectors { get; set; }
+        public uint Collectors { get; set; }
         
-        public int PaintKitWeapon { get; set; }
+        public uint PaintKitWeapon { get; set; }
     }
 }

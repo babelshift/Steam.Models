@@ -8,7 +8,7 @@
 
         public string DisplayName { get; set; }
 
-        public int Hidden { get; set; }
+        public uint Hidden { get; set; }
 
         public string Description { get; set; }
 

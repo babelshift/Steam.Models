@@ -2,6 +2,6 @@
 {
     public class StoreSorterIdModel
     {
-        public long Id { get; set; }
+        public ulong Id { get; set; }
     }
 }

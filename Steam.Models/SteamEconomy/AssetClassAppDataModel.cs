@@ -4,11 +4,11 @@ namespace Steam.Models.SteamEconomy
 {
     public class AssetClassAppDataModel
     {
-        public string DefIndex { get; set; }
+        public uint DefIndex { get; set; }
 
-        public string Quality { get; set; }
+        public uint Quality { get; set; }
 
-        public string Slot { get; set; }
+        public uint Slot { get; set; }
 
         public IReadOnlyCollection<AssetClassAppDataFilterModel> FilterData { get; set; }
 

@@ -2,12 +2,12 @@
 {
     public class StoreConfigModel
     {
-        public long DropdownId { get; set; }
+        public ulong DropdownId { get; set; }
 
         public string Name { get; set; }
 
         public bool Enabled { get; set; }
 
-        public long DefaultSelectionId { get; set; }
+        public ulong DefaultSelectionId { get; set; }
     }
 }

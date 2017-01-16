@@ -6,8 +6,8 @@
 
         public string Name { get; set; }
 
-        public int HeroId { get; set; }
+        public uint HeroId { get; set; }
 
-        public int Team { get; set; }
+        public uint Team { get; set; }
     }
 }

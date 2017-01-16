@@ -4,7 +4,7 @@ namespace Steam.Models.SteamCommunity
 {
     public class FriendModel
     {
-        public string SteamId { get; set; }
+        public ulong SteamId { get; set; }
 
         public string Relationship { get; set; }
 

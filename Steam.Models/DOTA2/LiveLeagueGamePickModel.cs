@@ -2,6 +2,6 @@
 {
     public class LiveLeagueGamePickModel
     {
-        public int HeroId { get; set; }
+        public uint HeroId { get; set; }
     }
 }

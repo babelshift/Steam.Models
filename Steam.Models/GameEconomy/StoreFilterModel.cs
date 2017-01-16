@@ -4,7 +4,7 @@ namespace Steam.Models.GameEconomy
 {
     public class StoreFilterModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
 
         public string Name { get; set; }
 
@@ -14,6 +14,6 @@ namespace Steam.Models.GameEconomy
 
         public IReadOnlyCollection<StoreFilterElementModel> Elements { get; set; }
 
-        public int Count { get; set; }
+        public uint Count { get; set; }
     }
 }

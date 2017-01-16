@@ -2,7 +2,7 @@
 {
     public class StoreDropdownModel
     {
-        public long Id { get; set; }
+        public ulong Id { get; set; }
 
         public string Name { get; set; }
 

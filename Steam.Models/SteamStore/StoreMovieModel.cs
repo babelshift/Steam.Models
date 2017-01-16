@@ -8,7 +8,7 @@ namespace Steam.Models.SteamStore
 {
     public class StoreMovieModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
         
         public string Name { get; set; }
         

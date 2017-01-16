@@ -2,8 +2,8 @@
 {
     public class MatchPlayerAbilityUpgradeModel
     {
-        public int Ability { get; set; }
-        public int Time { get; set; }
-        public int Level { get; set; }
+        public uint Ability { get; set; }
+        public uint Time { get; set; }
+        public uint Level { get; set; }
     }
 }

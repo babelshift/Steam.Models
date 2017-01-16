@@ -4,9 +4,9 @@
     {
         public bool IsPick { get; set; }
 
-        public int HeroId { get; set; }
+        public uint HeroId { get; set; }
 
-        public int Team { get; set; }
-        public int Order { get; set; }
+        public uint Team { get; set; }
+        public uint Order { get; set; }
     }
 }

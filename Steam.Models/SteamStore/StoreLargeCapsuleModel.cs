@@ -8,19 +8,19 @@ namespace Steam.Models.SteamStore
 {
     public class StoreLargeCapsuleModel
     {
-        public int Id { get; set; }
+        public uint Id { get; set; }
         
-        public int Type { get; set; }
+        public uint Type { get; set; }
         
         public string Name { get; set; }
         
         public bool Discounted { get; set; }
         
-        public int DiscountPercent { get; set; }
+        public uint DiscountPercent { get; set; }
         
-        public int OriginalPrice { get; set; }
+        public uint OriginalPrice { get; set; }
         
-        public int FinalPrice { get; set; }
+        public uint FinalPrice { get; set; }
         
         public string Currency { get; set; }
         

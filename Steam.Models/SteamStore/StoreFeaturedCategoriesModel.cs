@@ -20,6 +20,6 @@ namespace Steam.Models.SteamStore
         
         public StoreTrailerSlideshowModel Trailerslideshow { get; set; }
         
-        public int Status { get; set; }
+        public uint Status { get; set; }
     }
 }

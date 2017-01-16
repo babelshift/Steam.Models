@@ -2,20 +2,20 @@
 {
     public class BadgeModel
     {
-        public int BadgeId { get; set; }
+        public uint BadgeId { get; set; }
 
-        public int Level { get; set; }
+        public uint Level { get; set; }
 
-        public int CompletionTime { get; set; }
+        public long CompletionTime { get; set; }
 
-        public int Xp { get; set; }
+        public uint Xp { get; set; }
 
-        public int Scarcity { get; set; }
+        public uint Scarcity { get; set; }
 
-        public int? AppId { get; set; }
+        public uint? AppId { get; set; }
 
         public string CommunityItemId { get; set; }
 
-        public int? BorderColor { get; set; }
+        public uint? BorderColor { get; set; }
     }
 }

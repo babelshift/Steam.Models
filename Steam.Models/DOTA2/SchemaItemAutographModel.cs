@@ -8,9 +8,9 @@
 
         public string Autograph { get; set; }
 
-        public long? WorkshopLink { get; set; }
+        public ulong? WorkshopLink { get; set; }
 
-        public int Language { get; set; }
+        public uint Language { get; set; }
 
         public string IconPath { get; set; }
 

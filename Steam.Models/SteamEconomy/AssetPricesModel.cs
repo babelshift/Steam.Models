@@ -2,58 +2,58 @@
 {
     public class AssetPricesModel
     {
-        public int USD { get; set; }
+        public uint USD { get; set; }
 
-        public int GBP { get; set; }
+        public uint GBP { get; set; }
 
-        public int EUR { get; set; }
+        public uint EUR { get; set; }
 
-        public int RUB { get; set; }
+        public uint RUB { get; set; }
 
-        public int BRL { get; set; }
+        public uint BRL { get; set; }
 
-        public int JPY { get; set; }
+        public uint JPY { get; set; }
 
-        public int NOK { get; set; }
+        public uint NOK { get; set; }
 
-        public int IDR { get; set; }
+        public uint IDR { get; set; }
 
-        public int MYR { get; set; }
+        public uint MYR { get; set; }
 
-        public int PHP { get; set; }
+        public uint PHP { get; set; }
 
-        public int SGD { get; set; }
+        public uint SGD { get; set; }
 
-        public int THB { get; set; }
+        public uint THB { get; set; }
 
-        public int VND { get; set; }
+        public uint VND { get; set; }
 
-        public int KRW { get; set; }
+        public uint KRW { get; set; }
 
-        public int TRY { get; set; }
+        public uint TRY { get; set; }
 
-        public int UAH { get; set; }
+        public uint UAH { get; set; }
 
-        public int MXN { get; set; }
+        public uint MXN { get; set; }
 
-        public int CAD { get; set; }
+        public uint CAD { get; set; }
 
-        public int AUD { get; set; }
+        public uint AUD { get; set; }
 
-        public int NZD { get; set; }
+        public uint NZD { get; set; }
 
-        public int CNY { get; set; }
+        public uint CNY { get; set; }
 
-        public int TWD { get; set; }
+        public uint TWD { get; set; }
 
-        public int HKD { get; set; }
+        public uint HKD { get; set; }
 
-        public int INR { get; set; }
+        public uint INR { get; set; }
 
-        public int AED { get; set; }
+        public uint AED { get; set; }
 
-        public int SAR { get; set; }
+        public uint SAR { get; set; }
 
-        public int ZAR { get; set; }
+        public uint ZAR { get; set; }
     }
 }

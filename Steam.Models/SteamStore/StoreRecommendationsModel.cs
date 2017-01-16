@@ -8,6 +8,6 @@ namespace Steam.Models.SteamStore
 {
     public class StoreRecommendationsModel
     {
-        public int Total { get; set; }
+        public uint Total { get; set; }
     }
 }

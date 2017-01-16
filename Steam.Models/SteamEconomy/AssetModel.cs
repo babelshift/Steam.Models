@@ -12,7 +12,7 @@ namespace Steam.Models.SteamEconomy
 
         public IReadOnlyCollection<AssetClassModel> Class { get; set; }
 
-        public string Classid { get; set; }
+        public ulong ClassId { get; set; }
 
         public IReadOnlyCollection<string> Tags { get; set; }
 

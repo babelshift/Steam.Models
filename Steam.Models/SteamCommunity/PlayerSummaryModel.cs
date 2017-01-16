@@ -7,7 +7,7 @@ namespace Steam.Models.SteamCommunity
         /// <summary>
         /// Unique Steam ID of the player. Resolve this using ResolveVanityUrl interface method.
         /// </summary>
-        public string SteamId { get; set; }
+        public ulong SteamId { get; set; }
 
         /// <summary>
         /// Determines the visibility of the user's profile (public, private, friends)
@@ -17,7 +17,7 @@ namespace Steam.Models.SteamCommunity
         /// <summary>
         /// If set to 1, the user has configured his profile.
         /// </summary>
-        public int ProfileState { get; set; }
+        public uint ProfileState { get; set; }
 
         /// <summary>
         /// User's current nick name (displayed in profile and friends list)
@@ -89,7 +89,7 @@ namespace Steam.Models.SteamCommunity
         /// <summary>
         /// The player's selected city. This seems to refer to a database city id, so I'm not sure how to make use of this field.
         /// </summary>
-        public int CityCode { get; set; }
+        public uint CityCode { get; set; }
 
         /// <summary>
         /// The name of the game that a player is currently playing

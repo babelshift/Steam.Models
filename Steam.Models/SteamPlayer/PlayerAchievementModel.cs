@@ -4,7 +4,7 @@
     {
         public string APIName { get; set; }
 
-        public int Achieved { get; set; }
+        public uint Achieved { get; set; }
 
         public string Name { get; set; }
 

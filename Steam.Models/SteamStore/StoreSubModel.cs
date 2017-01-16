@@ -8,11 +8,11 @@ namespace Steam.Models.SteamStore
 {
     public class StoreSubModel
     {
-        public string Packageid { get; set; }
+        public uint PackageId { get; set; }
         
         public string PercentSavingsText { get; set; }
         
-        public int PercentSavings { get; set; }
+        public uint PercentSavings { get; set; }
     
         public string OptionText { get; set; }
         
@@ -22,6 +22,6 @@ namespace Steam.Models.SteamStore
         
         public bool IsFreeLicense { get; set; }
         
-        public int PriceInCentsWithDiscount { get; set; }
+        public uint PriceInCentsWithDiscount { get; set; }
     }
 }

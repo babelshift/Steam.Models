@@ -8,7 +8,7 @@ namespace Steam.Models.TF2
 {
     public class SchemaItemModel
     {
-        public int DefIndex { get; set; }
+        public uint DefIndex { get; set; }
         
         public string Name { get; set; }
         
@@ -28,11 +28,11 @@ namespace Steam.Models.TF2
         
         public string ModelPlayer { get; set; }
         
-        public int ItemQuality { get; set; }
+        public uint ItemQuality { get; set; }
         
-        public int MinIlevel { get; set; }
+        public uint MinIlevel { get; set; }
         
-        public int MaxIlevel { get; set; }
+        public uint MaxIlevel { get; set; }
         
         public string ImageUrl { get; set; }
         

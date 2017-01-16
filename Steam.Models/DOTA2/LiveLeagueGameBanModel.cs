@@ -2,6 +2,6 @@
 {
     public class LiveLeagueGameBanModel
     {
-        public int HeroId { get; set; }
+        public uint HeroId { get; set; }
     }
 }

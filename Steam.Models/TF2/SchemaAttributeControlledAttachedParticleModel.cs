@@ -10,7 +10,7 @@ namespace Steam.Models.TF2
     {
         public string System { get; set; }
         
-        public int Id { get; set; }
+        public uint Id { get; set; }
         
         public bool AttachToRootbone { get; set; }
     
