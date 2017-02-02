@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Steam.Models.NetCore", "Steam.Models.NetCore\Steam.Models.NetCore.xproj", "{3AC8FC21-6E0D-4257-9BF9-BD9042BBF5DF}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Steam.Models", "Steam.Models\Steam.Models.xproj", "{3AC8FC21-6E0D-4257-9BF9-BD9042BBF5DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Models", "Steam.Models\Steam.Models.csproj", "{2C1820B6-F58D-4A1D-A9AD-A4B0844722B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Models.Net45", "Steam.Models.Net45\Steam.Models.Net45.csproj", "{2C1820B6-F58D-4A1D-A9AD-A4B0844722B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
