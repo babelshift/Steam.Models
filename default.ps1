@@ -2,7 +2,7 @@ properties {
   $baseDir = resolve-path .
   $buildDir = "$baseDir\build"
   $sourceDir = "$baseDir\src"
-  $resultDir = "$baseDir\results"
+  $artifactsDir = "$baseDir\artifacts"
   $global:config = "Debug"
 }
 
@@ -11,7 +11,7 @@ task local -depends init, compile
 task ci -depends clean, release, local
 
 task clean {
-  Remove-Item "$resultDir" -recurse -force -ErrorAction SilentlyContinue | Out-Null
+  Remove-Item "$artifactsDir" -recurse -force -ErrorAction SilentlyContinue | Out-Null
 }
 
 task init { 
@@ -31,5 +31,5 @@ task compile -depends clean {
 
   exec { dotnet restore $projectPath }
   exec { dotnet build $projectPath -c $config }
-  exec { dotnet pack $projectPath -c $config --version-suffix $version }
+  exec { dotnet pack $projectPath -c $config -o $artifactsDir --version-suffix $version }
 }
