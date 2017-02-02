@@ -1,15 +1,6 @@
-version: 2.0.0.{build}
-
 branches:
   only:
     - master
-
-assembly_info:
-  patch: true
-  file: AssemblyInfo.*
-  assembly_version: "{version}"
-  assembly_file_version: "{version}"
-  assembly_informational_version: "{version}"
 
 configuration: Release
 
@@ -23,7 +14,9 @@ before_build:
   
 deploy:
   - provider: NuGet
+    name: production
     api_key:
       secure: vIHuOdB4aYJEqNACb3jjCg3m/qZLqpwYlruu8J0BOiX81lRrmussVEUqiWRBTrRQ
     on:
-      branch: master
+      appveyor_repo_tag: true
+      
