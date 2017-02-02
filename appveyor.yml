@@ -14,19 +14,16 @@ assembly_info:
 configuration: Release
 
 build:
-  project: Steam.Models.sln
+  project: src\Steam.Models.sln
   publish_nuget: true
   include_nuget_references: true
   
-cache:
-  - packages -> **\packages.config
-  
 before_build:
-  - cmd: nuget restore
+  - cmd: nuget restore src\Steam.Models.sln
   
 deploy:
   - provider: NuGet
     api_key:
       secure: vIHuOdB4aYJEqNACb3jjCg3m/qZLqpwYlruu8J0BOiX81lRrmussVEUqiWRBTrRQ
-    skip_symbols: false
-    artifact: /.*\.nupkg/
+    on:
+      branch: master
