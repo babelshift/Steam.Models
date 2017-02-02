@@ -35,7 +35,7 @@ namespace Steam.Models.DOTA2
 
         public uint Cluster { get; set; }
 
-        public DateTime FirstBloodTime { get; set; }
+        public uint FirstBloodTime { get; set; }
 
         public uint LobbyType { get; set; }
 
