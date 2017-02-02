@@ -18,12 +18,6 @@
     <file src="..\bin\Release\portable\Steam.Models.pdb" target="lib\portable-net452+win81+dnxcore50\Steam.Models.pdb"/>
     <file src="..\bin\Release\portable\Steam.Models.dll" target="lib\portable-net452+win81+dnxcore50\Steam.Models.dll"/>
 	
-    <file src="..\bin\Release\net451\Steam.Models.pdb" target="lib\net451\Steam.Models.pdb"/>
-    <file src="..\bin\Release\net451\Steam.Models.dll" target="lib\net451\Steam.Models.dll"/>
-	
-    <file src="..\bin\Release\net452\Steam.Models.pdb" target="lib\net452\Steam.Models.pdb"/>
-    <file src="..\bin\Release\net452\Steam.Models.dll" target="lib\net452\Steam.Models.dll"/>
-	
-    <file src="..\bin\Release\net46\Steam.Models.pdb" target="lib\net46\Steam.Models.pdb"/>
+    <file src="..\bin\Release\net46\Steam.Models.pdb" target="lib\net45\Steam.Models.pdb"/>
   </files>
 </package>
