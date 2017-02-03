@@ -21,7 +21,7 @@ artifacts:
   
 deploy:
   - provider: NuGet
-    server: https://www.myget.org/F/steammodels-ci/api/v2/package
+    server: https://www.myget.org/F/babelshift-ci/api/v2/package
     api_key:
       secure: zI5gnqOnLVuIzNHVG1eiCpi5mEsT1i6AvwOHwIIm27NOURZFnCHhwG3SE49f0f88
     skip_symbols: true
