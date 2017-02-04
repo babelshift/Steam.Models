@@ -1,5 +1,5 @@
 ﻿{
-  "version": "3.0.0-ci-*",
+  "version": "3.0.1-ci-*",
   "authors": [ "Justin Skiles" ],
   "description": "Contains classes that are used as data transports between various application, business, and data layers for Steam related APIs.",
   "packOptions": {
