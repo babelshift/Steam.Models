@@ -18,7 +18,7 @@ namespace Steam.Models.DOTA2
         public string LeagueLogoPath { get; set; }
         public string RadiantTeamLogo { get; set; }
         public string DireTeamLogo { get; set; }
-        public int RoshanRespawnTimer { get; set; }
+        public uint RoshanRespawnTimer { get; set; }
         public ulong LobbyId { get; set; }
         public ulong MatchId { get; set; }
         public double StreamDelay { get; set; }

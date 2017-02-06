@@ -20,7 +20,7 @@
         public LiveLeagueGameItemModel Item3 { get; set; }
         public LiveLeagueGameItemModel Item4 { get; set; }
         public LiveLeagueGameItemModel Item5 { get; set; }
-        public int RespawnTimer { get; set; }
+        public uint RespawnTimer { get; set; }
         public uint NetWorth { get; set; }
         public uint Gold { get; set; }
         public uint Level { get; set; }
