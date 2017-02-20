@@ -6,7 +6,6 @@ namespace Steam.Models.SteamCommunity
     public class SteamCommunityProfileModel
     {
         public ulong SteamID { get; set; }
-        public string Nickname { get; set; }
         public string State { get; set; }
         public string StateMessage { get; set; }
         public uint VisibilityState { get; set; } // what is this?
