@@ -40,6 +40,8 @@ namespace Steam.Models.GameEconomy
 
         public string CraftMaterialType { get; set; }
 
+        public string ItemLogName { get; set; }
+
         public SchemaCapabilitiesModel Capabilities { get; set; }
 
         public IReadOnlyCollection<string> UsedByClasses { get; set; }

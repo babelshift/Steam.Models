@@ -41,6 +41,8 @@ namespace Steam.Models.TF2
         public string CraftClass { get; set; }
         
         public string CraftMaterialType { get; set; }
+
+        public string ItemLogName { get; set; }
         
         public SchemaCapabilitiesModel Capabilities { get; set; }
         
