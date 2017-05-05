@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Contains classes that are used as data transports between various application, business, and data layers for Steam related APIs.</Description>
-    <VersionPrefix>3.0.1-ci</VersionPrefix>
+    <VersionPrefix>3.0.1</VersionPrefix>
     <Authors>Justin Skiles</Authors>
     <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
     <AssemblyName>Steam.Models</AssemblyName>
