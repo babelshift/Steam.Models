@@ -32,10 +32,10 @@ task compile -depends clean {
   exec { dotnet restore $projectPath }
   exec { dotnet build $projectPath -c $config }
 
-  if ($version -ne "00000") {
-    exec { dotnet pack $projectPath -c $config -o $artifactsDir --version-suffix $version }
+  if ($env:APPVEYOR_REPO_TAG) {
+    exec { dotnet pack $projectPath -c $config -o $artifactsDir }
   }
   else {
-    exec { dotnet pack $projectPath -c $config -o $artifactsDir }
+    exec { dotnet pack $projectPath -c $config -o $artifactsDir --version-suffix $version }
   }
 }
