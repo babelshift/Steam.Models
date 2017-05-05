@@ -15,7 +15,7 @@ task clean {
 }
 
 task init { 
-  exec { .\build\dotnet\install.ps1 --Version "1.0.0-preview3-003171" | Out-Default }
+  exec { .\build\dotnet\install.ps1 --Version "1.0.3" | Out-Default }
   exec { dotnet --version | Out-Default }
 }
 
