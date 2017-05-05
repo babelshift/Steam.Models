@@ -24,7 +24,7 @@ task release {
 }
 
 task compile -depends clean {
-  $projectPath = "$sourceDir\Steam.Models\project.json"
+  $projectPath = "$sourceDir\Steam.Models\Steam.Models.csproj"
 
   $version = if ($env:APPVEYOR_BUILD_NUMBER -ne $NULL) { $env:APPVEYOR_BUILD_NUMBER } else { '0' }
   $version = "{0:D5}" -f [convert]::ToInt32($version, 10)
