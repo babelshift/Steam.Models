@@ -31,5 +31,11 @@ task compile -depends clean {
 
   exec { dotnet restore $projectPath }
   exec { dotnet build $projectPath -c $config }
-  exec { dotnet pack $projectPath -c $config -o $artifactsDir --version-suffix $version }
+
+  if ($version -ne "00000") {
+    exec { dotnet pack $projectPath -c $config -o $artifactsDir --version-suffix $version }
+  }
+  else {
+    exec { dotnet pack $projectPath -c $config -o $artifactsDir }
+  }
 }
