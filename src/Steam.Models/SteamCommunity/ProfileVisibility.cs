@@ -7,7 +7,7 @@
     {
         Unknown = 0,
         Private = 1,
-        Public = 3,
-        FriendsOnly = 8,
+        FriendsOnly = 2,
+        Public = 3
     }
 }
