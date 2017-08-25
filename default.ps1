@@ -15,8 +15,6 @@ task clean {
 }
 
 task init { 
-  exec { curl -O https://dotnetcli.azureedge.net/dotnet/Sdk/2.0.0/dotnet-sdk-2.0.0-win-x64.exe | Out-Default }
-  exec { dotnet-sdk-2.0.0-win-x64.exe /install /quiet /norestart /log install.log | Out-Default }
   exec { dotnet --version | Out-Default }
 }
 
