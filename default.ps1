@@ -15,8 +15,12 @@ task clean {
 }
 
 task init { 
-  exec { curl -O dotnet-sdk.exe https://dotnetcli.azureedge.net/dotnet/Sdk/2.0.0/dotnet-sdk-2.0.0-win-x64.exe | Out-Default }
-  exec { .\dotnet-sdk.exe /install /quiet /norestart /log install.log | Out-Default }
+  $isDotNetInstalled = Test-Path $env:ProgramFiles'\dotnet\sdk\2.0.0' -PathType Container
+  
+  if($isDotNetInstalled -eq $false) {
+	exec { curl -O dotnet-sdk.exe https://dotnetcli.azureedge.net/dotnet/Sdk/2.0.0/dotnet-sdk-2.0.0-win-x64.exe | Out-Default }
+	exec { .\dotnet-sdk.exe /install /quiet /norestart /log install.log | Out-Default }
+  }
   exec { dotnet --version | Out-Default }
 }
 
