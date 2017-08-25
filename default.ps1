@@ -18,9 +18,13 @@ task init {
   $isDotNetDownloaded = Test-Path dotnet-sdk.exe
   
   if($isDotNetDownloaded -eq $false) {
+    Write-Output 'Did not find dotnet-sdk.exe. Starting download.'
 	exec { curl -O dotnet-sdk.exe https://dotnetcli.azureedge.net/dotnet/Sdk/2.0.0/dotnet-sdk-2.0.0-win-x64.exe | Out-Default }
+  } else {
+	Write-Output 'Found dotnet-sdk.exe. Skipping download.'
   }
   
+  Write-Output 'Installing dotnet-sdk.exe.'
   exec { .\dotnet-sdk.exe /install /quiet /norestart /log install.log | Out-Default }
   exec { dotnet --version | Out-Default }
 }
