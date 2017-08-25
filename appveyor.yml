@@ -22,7 +22,7 @@ artifacts:
     name: NuGet
     
 cache:
-  - '%PROGRAMFILES%\dotnet\sdk\2.0.0'
+  - '%APPVEYOR_BUILD_FOLDER%\dotnet-sdk.exe'
   
 deploy:
   - provider: NuGet
