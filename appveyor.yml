@@ -22,7 +22,7 @@ artifacts:
     name: NuGet
     
 cache:
-  - '%LOCALAPPDATA%\Microsoft\dotnet'
+  - '%PROGRAMFILES%\dotnet'
   
 deploy:
   - provider: NuGet
