@@ -2,9 +2,8 @@
 
   <PropertyGroup>
     <Description>Contains classes that are used as data transports between various application, business, and data layers for Steam related APIs.</Description>
-    <VersionPrefix>3.0.3</VersionPrefix>
+    <VersionPrefix>3.0.4-ci</VersionPrefix>
     <Authors>Justin Skiles</Authors>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AssemblyName>Steam.Models</AssemblyName>
     <PackageId>Steam.Models</PackageId>
     <PackageProjectUrl>https://github.com/babelshift/Steam.Models</PackageProjectUrl>
