@@ -4,6 +4,6 @@
     {
         public string Name { get; set; }
 
-        public uint Value { get; set; }
+        public double Value { get; set; }
     }
 }
