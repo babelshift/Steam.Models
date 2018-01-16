@@ -19,11 +19,11 @@ namespace Steam.Models
 
         public uint FileSize { get; set; }
 
-        public string FileUrl { get; set; }
+        public Uri FileUrl { get; set; }
 
         public ulong FileContentHandle { get; set; }
 
-        public string PreviewUrl { get; set; }
+        public Uri PreviewUrl { get; set; }
 
         public ulong PreviewContentHandle { get; set; }
 
