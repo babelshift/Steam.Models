@@ -3,7 +3,7 @@
     public class ServerStatusAppModel
     {
         public uint Version { get; set; }
-        public long Timestamp { get; set; }
+        public ulong Timestamp { get; set; }
         public string Time { get; set; }
     }
 }

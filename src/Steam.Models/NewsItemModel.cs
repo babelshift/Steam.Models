@@ -16,7 +16,7 @@
 
         public string FeedLabel { get; set; }
 
-        public long Date { get; set; }
+        public ulong Date { get; set; }
 
         public string Feedname { get; set; }
     }

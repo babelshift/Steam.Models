@@ -4,7 +4,7 @@ namespace Steam.Models.GameEconomy
 {
     public class SchemaModel
     {
-        public int Status { get; set; }
+        public uint Status { get; set; }
 
         public string ItemsGameUrl { get; set; }
 

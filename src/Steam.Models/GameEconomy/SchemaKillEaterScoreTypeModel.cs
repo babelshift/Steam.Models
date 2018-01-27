@@ -2,7 +2,7 @@
 {
     public class SchemaKillEaterScoreTypeModel
     {
-        public int Type { get; set; }
+        public uint Type { get; set; }
 
         public string TypeName { get; set; }
 

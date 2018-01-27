@@ -6,7 +6,7 @@
 
         public uint Level { get; set; }
 
-        public long CompletionTime { get; set; }
+        public ulong CompletionTime { get; set; }
 
         public uint Xp { get; set; }
 

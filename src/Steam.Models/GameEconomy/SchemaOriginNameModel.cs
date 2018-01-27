@@ -2,7 +2,7 @@
 {
     public class SchemaOriginNameModel
     {
-        public int Origin { get; set; }
+        public uint Origin { get; set; }
 
         public string Name { get; set; }
     }

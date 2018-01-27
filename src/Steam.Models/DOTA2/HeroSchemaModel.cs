@@ -162,7 +162,7 @@
 
         public string VoiceBackgroundSound { get; set; }
 
-        public int HealthBarOffset { get; set; }
+        public uint HealthBarOffset { get; set; }
 
         public string IdleExpression { get; set; }
 

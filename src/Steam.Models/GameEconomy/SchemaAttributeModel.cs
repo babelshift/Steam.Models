@@ -4,7 +4,7 @@
     {
         public string Name { get; set; }
 
-        public int Defindex { get; set; }
+        public uint Defindex { get; set; }
 
         public string AttributeClass { get; set; }
 

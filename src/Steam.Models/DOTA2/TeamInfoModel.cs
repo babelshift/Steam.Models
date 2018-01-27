@@ -7,7 +7,7 @@ namespace Steam.Models.DOTA2
         public uint TeamId { get; set; }
         public string Name { get; set; }
         public string Tag { get; set; }
-        public long TimeCreated { get; set; }
+        public ulong TimeCreated { get; set; }
         public string Rating { get; set; }
         public ulong Logo { get; set; }
         public ulong LogoSponsor { get; set; }
