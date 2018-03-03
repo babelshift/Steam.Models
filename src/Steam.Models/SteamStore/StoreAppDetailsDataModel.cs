@@ -30,11 +30,11 @@ namespace Steam.Models.SteamStore
         
         public string Website { get; set; }
         
-        public StorePcRequirementsModel PcRequirements { get; set; }
+        public dynamic PcRequirements { get; set; }
         
-        public StoreMacRequirementsModel MacRequirements { get; set; }
+        public dynamic MacRequirements { get; set; }
         
-        public StoreLinuxRequirementsModel LinuxRequirements { get; set; }
+        public dynamic LinuxRequirements { get; set; }
         
         public string[] Developers { get; set; }
         
