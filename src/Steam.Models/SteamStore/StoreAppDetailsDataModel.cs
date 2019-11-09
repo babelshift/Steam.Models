@@ -39,7 +39,9 @@ namespace Steam.Models.SteamStore
         public string[] Developers { get; set; }
         
         public string[] Publishers { get; set; }
-        
+
+        public StorePriceOverview PriceOverview { get; set; }
+
         public string[] Packages { get; set; }
         
         public StorePackageGroupModel[] PackageGroups { get; set; }
