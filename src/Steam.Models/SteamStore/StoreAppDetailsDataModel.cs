@@ -23,7 +23,9 @@ namespace Steam.Models.SteamStore
         public string DetailedDescription { get; set; }
         
         public string AboutTheGame { get; set; }
-        
+
+        public string ShortDescription { get; set; }
+
         public string SupportedLanguages { get; set; }
         
         public string HeaderImage { get; set; }
