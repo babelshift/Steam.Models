@@ -23,7 +23,9 @@ namespace Steam.Models.SteamStore
         public string DetailedDescription { get; set; }
         
         public string AboutTheGame { get; set; }
-        
+
+        public string ShortDescription { get; set; }
+
         public string SupportedLanguages { get; set; }
         
         public string HeaderImage { get; set; }
@@ -39,7 +41,9 @@ namespace Steam.Models.SteamStore
         public string[] Developers { get; set; }
         
         public string[] Publishers { get; set; }
-        
+
+        public StorePriceOverview PriceOverview { get; set; }
+
         public string[] Packages { get; set; }
         
         public StorePackageGroupModel[] PackageGroups { get; set; }
