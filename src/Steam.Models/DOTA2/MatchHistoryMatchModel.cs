@@ -7,7 +7,7 @@ namespace Steam.Models.DOTA2
     {
         public ulong MatchId { get; set; }
 
-        public uint MatchSequenceNumber { get; set; }
+        public ulong MatchSequenceNumber { get; set; }
 
         public DateTime StartTime { get; set; }
 

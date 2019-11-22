@@ -18,7 +18,7 @@ namespace Steam.Models.DOTA2
         
         public ulong MatchId { get; set; }
         
-        public uint MatchSequenceNumber { get; set; }
+        public ulong MatchSequenceNumber { get; set; }
 
         public TowerStateModel TowerStatesRadiant { get { return new TowerStateModel(TowerStatusRadiant); } }
         
