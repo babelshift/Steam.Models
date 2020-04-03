@@ -1,8 +1,2 @@
 # Steam.Models
-[![Build status](https://ci.appveyor.com/api/projects/status/f419c2l426tfoxdf?svg=true)](https://ci.appveyor.com/project/JustinSkiles/steam-models)
-[![NuGet](https://img.shields.io/nuget/v/Steam.Models.svg)](https://www.nuget.org/packages/Steam.Models)
-[![MyGet CI](https://img.shields.io/myget/babelshift-ci/v/Steam.Models.svg)](https://www.myget.org/feed/babelshift-ci/package/nuget/Steam.Models)
-
-Contains classes that are used as data transports between various application, business, and data layers for Steam related APIs. 
-
-See: https://github.com/babelshift/SteamWebAPI2
+This repo is deprecated as models have been moved to [SteamWebAPI2](https://github.com/babelshift/SteamWebAPI2).
